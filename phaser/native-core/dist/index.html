@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><title>Mystic Arts</title>
+<link rel="stylesheet" href="./layout.css"></head>
+<body data-view="game"><div id="app">
+<header><h1>Mystic Arts</h1><div class="actions"><button id="start">게임 실행</button><button id="expand" aria-pressed="false">화면 확대</button><button id="fullscreen">전체화면</button><label><input id="mute" type="checkbox">음소거</label></div></header>
+
+<main>
+<aside id="basic" class="guide" aria-label="기본 조작과 콤보"><div class="guide-head"><h2>기본 · 콤보</h2><div class="pager"><button data-step="-1" aria-label="이전 조작">‹</button><span class="page"></span><button data-step="1" aria-label="다음 조작">›</button></div></div>
+<div class="moves">
+<article data-group="이동 · 점프"><div class="move-row"><h3>좌우 이동</h3><div class="command"><kbd>←</kbd><span class="join">/</span><kbd>→</kbd></div></div></article>
+<article><div class="move-row"><h3>대시</h3><div class="command"><kbd>앞</kbd><span class="then">후</span><kbd>앞</kbd></div></div><p>앞 방향을 뗐다가 다시 누르기</p></article>
+<article><div class="move-row"><h3>점프</h3><div class="command"><kbd>X</kbd></div></div></article>
+<article><div class="move-row"><h3>발판 내려가기</h3><div class="command"><span class="chord"><kbd>↓</kbd><span class="join">+</span><kbd>X</kbd></span></div></div><p>통과 가능한 발판 위에서</p></article>
+<article><div class="move-row"><h3>공중 급강하</h3><div class="command"><span class="chord"><kbd>↓</kbd><span class="join">+</span><kbd>X</kbd></span></div></div><p>점프 중 빠르게 내려가기</p></article>
+<article data-group="방어 · 기본 공격"><div class="move-row"><h3>가드</h3><div class="command"><kbd>↓</kbd></div></div><p>지상에서 사용</p></article>
+<article><div class="move-row"><h3>하단 공격</h3><div class="command"><span class="chord"><kbd>↓</kbd><span class="join">+</span><kbd>Z</kbd></span></div></div></article>
+<article><div class="move-row"><h3>기본 콤보</h3><div class="command"><kbd>Z</kbd><span class="repeat">연속</span></div></div><p>지상·공중에서 연속 공격</p></article>
+<article data-group="콤보 연결 · 지상 3타 명중 후"><div class="move-row"><h3>띄우기 후속타</h3><div class="command"><span class="chord"><kbd>↑</kbd><span class="join">+</span><kbd>Z</kbd></span></div></div><p>3타 명중 직후 연결 타이밍에 입력</p></article>
+<article><div class="move-row"><h3>하단 후속타</h3><div class="command"><span class="chord"><kbd>↓</kbd><span class="join">+</span><kbd>Z</kbd></span></div></div><p>3타 명중 직후 연결 타이밍에 입력</p></article>
+<article data-group="메뉴"><div class="move-row"><h3>확인 · 옵션 닫기</h3><div class="command"><kbd>Enter</kbd></div></div></article>
+<article><div class="move-row"><h3>일시정지 · 재개</h3><div class="command"><kbd>Esc</kbd><span class="join">/</span><kbd>F1</kbd></div></div></article>
+</div></aside>
+<section id="play" aria-label="게임 화면"><div id="playfield"><div id="game" tabindex="0"><div id="welcome"><span>MYSTIC ARTS</span><p>게임 실행을 눌러 시작하세요</p></div></div></div></section>
+<aside id="skills" class="guide" aria-label="특수기 조작"><div class="guide-head"><h2>특수기</h2><div class="pager"><button data-step="-1" aria-label="이전 기술">‹</button><span class="page"></span><button data-step="1" aria-label="다음 기술">›</button></div></div>
+<div class="moves">
+<article class="input-help" data-group="먼저 읽기"><h3>입력 순서</h3><p><strong>+</strong> 동시 입력 · <strong>후</strong> 순서대로</p><p>같은 방향은 뗐다가 다시 누르기</p></article>
+<article class="input-help"><h3>앞 · 뒤 방향</h3><p>바라보는 쪽이 <strong>앞</strong>, 반대쪽이 <strong>뒤</strong></p></article>
+<article data-group="특수 공격"><div class="move-row"><h3>돌려차기</h3><span class="condition">대시 중</span></div><div class="command"><kbd>Z</kbd></div></article>
+<article><div class="move-row"><h3>올려차기</h3></div><div class="command"><kbd>↑</kbd><span class="then">후</span><span class="chord"><kbd>↑</kbd><span class="join">+</span><kbd>Z</kbd></span></div></article>
+<article><div class="move-row"><h3>지상 특수기</h3><span class="condition energy">기력 필요</span></div><div class="command"><kbd>↓</kbd><span class="then">후</span><span class="chord"><kbd>↓</kbd><span class="join">+</span><kbd>Z</kbd></span></div><p>공중에서 쓰면 내려밟기</p></article>
+<article><div class="move-row"><h3>아래·앞 특수기</h3><span class="condition energy">기력 필요</span></div><div class="command"><kbd>↓</kbd><span class="then">후</span><span class="chord"><kbd>앞</kbd><span class="join">+</span><kbd>Z</kbd></span></div><p>지상 · 공격 회복 후 사용</p></article>
+<article><div class="move-row"><h3>연속 특수기</h3><span class="condition energy">기력 필요</span></div><div class="command"><kbd>앞</kbd><span class="then">후</span><kbd>뒤</kbd><span class="then">후</span><span class="chord"><kbd>앞</kbd><span class="join">+</span><kbd>Z</kbd></span></div><p>지상에서 사용</p></article>
+<article class="input-help" data-group="발동이 안 된다면"><h3>빠르게 이어서 입력</h3><p>피격·공격 회복 중에는 제한됩니다.</p></article>
+<article class="input-help sources"><h3>조작표 출처</h3><p><a href="https://w.atwiki.jp/discstation/pages/50.html" target="_blank" rel="noopener noreferrer">DiscStation 기술표</a> · <a href="https://runingmongmong.tistory.com/130" target="_blank" rel="noopener noreferrer">한국어 안내</a></p></article>
+</div></aside>
+</main>
+<footer><button id="measure" disabled>FPS 측정</button><span id="status" role="status">게임 실행을 누르면 원본 타이틀을 불러옵니다.</span><span id="fps"></span></footer>
+</div><script src="./phaser.js"></script><script src="./tinysynth.js"></script><script type="module" src="./layout.js"></script><script type="module" src="./main.js"></script></body></html>

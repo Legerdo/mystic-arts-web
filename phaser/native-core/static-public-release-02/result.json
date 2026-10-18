@@ -1,0 +1,95 @@
+{
+  "url": "http://127.0.0.1:63778/phaser/native-core/dist/",
+  "checks": {
+    "originalSave20Bytes": true,
+    "inputMovesRenderedPlayer": true,
+    "pauseFreezesPlayer": true,
+    "offlineContinues": true,
+    "nativeSaveReadback": true,
+    "saveBytesSurviveReload": true,
+    "noIsolationHeaders": true,
+    "noRuntimeErrors": true
+  },
+  "errors": [],
+  "browser": "155.0.8059.82",
+  "headers": {
+    "content-length": "6321",
+    "content-type": "text/html",
+    "date": "Sun, 18 Oct 2026 13:47:03 GMT",
+    "last-modified": "Sun, 18 Oct 2026 13:46:21 GMT",
+    "server": "SimpleHTTP/0.6 Python/3.13.0"
+  },
+  "buildManifestSha256": "e429cea8a7db5727ef015277762004b54ea26096e60fb9fc800af2b11f8378e2",
+  "platform": {
+    "crossOriginIsolated": false,
+    "sharedArrayBuffer": "undefined"
+  },
+  "inputProbe": {
+    "ms": 22.600000001490116,
+    "beforeX": 13369344,
+    "afterX": 13434880
+  },
+  "offlineState": {
+    "ready": true,
+    "error": null,
+    "frames": 1112,
+    "game": {
+      "ticks": 1117,
+      "stage": 1,
+      "mode": 4,
+      "pause": 0,
+      "entities": 16,
+      "player": {
+        "x": 13586432,
+        "y": 17948672,
+        "hp": 992,
+        "action": 0,
+        "attack": 1
+      },
+      "shake": [
+        0,
+        0
+      ]
+    },
+    "sounds": 19,
+    "midi": 2,
+    "saves": 1,
+    "measurement": null,
+    "exited": false,
+    "workerSamples": null,
+    "saveRead": {
+      "present": false,
+      "bytes": 20,
+      "roundMask": 63
+    }
+  },
+  "reloadState": {
+    "ready": true,
+    "error": null,
+    "frames": 1,
+    "game": {
+      "ticks": 0,
+      "stage": 0,
+      "mode": 0,
+      "pause": 0,
+      "entities": 0,
+      "player": null,
+      "shake": [
+        0,
+        0
+      ]
+    },
+    "sounds": 0,
+    "midi": 0,
+    "saves": 0,
+    "measurement": null,
+    "exited": false,
+    "workerSamples": null,
+    "saveRead": {
+      "present": true,
+      "bytes": 20,
+      "roundMask": 63
+    }
+  },
+  "pass": true
+}

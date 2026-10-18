@@ -1,0 +1,99 @@
+{
+  "cycles": [
+    {
+      "state": {
+        "ready": false,
+        "error": null,
+        "frames": 666,
+        "game": null,
+        "sounds": 3,
+        "midi": 1,
+        "saves": 1,
+        "measurement": null,
+        "exited": true,
+        "workerSamples": null,
+        "saveRead": {
+          "present": false,
+          "bytes": 20,
+          "roundMask": 63
+        }
+      },
+      "resources": {
+        "workers": [
+          true
+        ],
+        "audio": [
+          "suspended"
+        ]
+      },
+      "savePreserved": true
+    },
+    {
+      "state": {
+        "ready": false,
+        "error": null,
+        "frames": 659,
+        "game": null,
+        "sounds": 3,
+        "midi": 1,
+        "saves": 1,
+        "measurement": null,
+        "exited": true,
+        "workerSamples": null,
+        "saveRead": {
+          "present": true,
+          "bytes": 20,
+          "roundMask": 63
+        }
+      },
+      "resources": {
+        "workers": [
+          true,
+          true
+        ],
+        "audio": [
+          "suspended"
+        ]
+      },
+      "savePreserved": true
+    }
+  ],
+  "errors": [],
+  "browser": "155.0.8059.82",
+  "buildManifestSha256": "c1e2327f73ee75e88cd276100fd9a5f57c22f60094658b31a36dda7b1277e629",
+  "restart": {
+    "ready": true,
+    "error": null,
+    "frames": 888,
+    "game": {
+      "ticks": 890,
+      "stage": 1,
+      "mode": 4,
+      "pause": 0,
+      "entities": 16,
+      "player": {
+        "x": 13369344,
+        "y": 24297472,
+        "hp": 992,
+        "action": 0,
+        "attack": 1
+      },
+      "shake": [
+        0,
+        0
+      ]
+    },
+    "sounds": 10,
+    "midi": 2,
+    "saves": 1,
+    "measurement": null,
+    "exited": false,
+    "workerSamples": null,
+    "saveRead": {
+      "present": true,
+      "bytes": 20,
+      "roundMask": 63
+    }
+  },
+  "pass": true
+}

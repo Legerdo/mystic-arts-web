@@ -1,0 +1,7 @@
+{
+  "package": "@alexaltea/unicorn-js",
+  "version": "2.1.4",
+  "sourceSha256": "643adbbb0c77eadb71182f116c9da0860814221a25194dac3ed561589929ef6d",
+  "adapterSha256": "a0760828c23d0ae83b525c74d5354bec68de77f9de37d7f92426199d64f8681e",
+  "change": "Expose existing WASM heap through a read-only getter; no CPU/WASM byte changes"
+}

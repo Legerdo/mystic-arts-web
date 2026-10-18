@@ -1,0 +1,3079 @@
+{
+  "schema": "mystic-arts-data-v1",
+  "assetsRelativeTo": "data/index.json",
+  "sources": {
+    "Dat/MysticA.wlk": {
+      "bytes": 1036463,
+      "sha256": "617d10a54219a1d951cd418a9137159964319c6ac19c7447d34ab2dd943abdc3"
+    },
+    "Dat/MysticA.mlk": {
+      "bytes": 123468,
+      "sha256": "a85574bb74bb304bdd0d1bc9463022ee942edca16dad159d340c4a2105dea70a"
+    },
+    "Dat/STGa01.brm": {
+      "bytes": 14412,
+      "sha256": "45cb91d62e680aa2e878b7d2e78c8dfe824909d439607971dda3884f98ba1612"
+    },
+    "Dat/STGa02.brm": {
+      "bytes": 12012,
+      "sha256": "507efe3161169b7ac10f1a5a69da5a04c38bc0181f24fe872ef5e58de8954953"
+    },
+    "Dat/STGa03.brm": {
+      "bytes": 12012,
+      "sha256": "ab51d5d043b73c92139719c58a5ad747c64126dab7c24d1894f3b9f0ad76a060"
+    },
+    "Dat/STGf01.brm": {
+      "bytes": 14412,
+      "sha256": "8a2aeb5183edb0335d85031c0e398275e20fea166d50c1069ec4c554887e9710"
+    },
+    "Dat/STGf02.brm": {
+      "bytes": 12012,
+      "sha256": "72a99b6695d419dd58e9df2cbeb12f8c92371a07468db618ba9762d4a417cfab"
+    },
+    "Dat/STGf03.brm": {
+      "bytes": 12012,
+      "sha256": "8aab36e5d7cd9a9ff119b4f4b3d42fce15debe53db91b028134fb664af014f4d"
+    },
+    "seq/apple.sq": {
+      "bytes": 8373,
+      "sha256": "8201023481ba7ccd51e561078df4634226e29c10e7dbfaf2b25fed0bb606b8e8"
+    },
+    "seq/graph.sq": {
+      "bytes": 1032,
+      "sha256": "bf5741e154db3a8533eb95f283c8c7a0b1156e13dc78416694d6eebbb2d149c5"
+    },
+    "seq/sound.sq": {
+      "bytes": 84,
+      "sha256": "f4a3f508e955bddcc3983a281fa03590b5ea5b81cc0572e823166395aa63c415"
+    },
+    "seq/startup.sq": {
+      "bytes": 732,
+      "sha256": "7180916a17a172464464adc9e329eff7ce820222b7f75c243707d31a1ecc734e"
+    },
+    "seq/en/mess.sq": {
+      "bytes": 553,
+      "sha256": "848c30089c9de7f543827b2a6970aaecc8b83150be3b69dc159a8e5bf09a5766"
+    },
+    "seq/jp/mess.sq": {
+      "bytes": 625,
+      "sha256": "1b7d2da57502dea7799bb9c2f56b0dffb064ba4de10f2002958c32ef1d34678b"
+    },
+    "seq/kr/mess.sq": {
+      "bytes": 625,
+      "sha256": "1b7d2da57502dea7799bb9c2f56b0dffb064ba4de10f2002958c32ef1d34678b"
+    }
+  },
+  "maps": [
+    {
+      "id": "STGa01",
+      "stage": 1,
+      "layer": "a",
+      "file": "maps/STGa01.u16le",
+      "source": "Dat/STGa01.brm",
+      "sourceOffset": 12,
+      "rawFile": "original/STGa01.brm",
+      "magic": "BRUN100",
+      "width": 40,
+      "height": 180,
+      "cellBytes": 2,
+      "elementType": "uint16le",
+      "count": 7200,
+      "byteLength": 14400,
+      "sha256": "7e9ab3567e59bd1044273ecb05d67ce980c240ab4edd66bac949cfb9597cdcd6",
+      "distinctValues": 5,
+      "maxValue": 33,
+      "histogram": {
+        "0": 5865,
+        "1": 780,
+        "2": 12,
+        "3": 17,
+        "33": 526
+      }
+    },
+    {
+      "id": "STGa02",
+      "stage": 2,
+      "layer": "a",
+      "file": "maps/STGa02.u16le",
+      "source": "Dat/STGa02.brm",
+      "sourceOffset": 12,
+      "rawFile": "original/STGa02.brm",
+      "magic": "BRUN100",
+      "width": 40,
+      "height": 150,
+      "cellBytes": 2,
+      "elementType": "uint16le",
+      "count": 6000,
+      "byteLength": 12000,
+      "sha256": "6a6c443696155b22251a5a715e0d527871fff82b8c4a9e2c56784fedb7832ce6",
+      "distinctValues": 5,
+      "maxValue": 33,
+      "histogram": {
+        "0": 4734,
+        "1": 718,
+        "2": 11,
+        "3": 17,
+        "33": 520
+      }
+    },
+    {
+      "id": "STGa03",
+      "stage": 3,
+      "layer": "a",
+      "file": "maps/STGa03.u16le",
+      "source": "Dat/STGa03.brm",
+      "sourceOffset": 12,
+      "rawFile": "original/STGa03.brm",
+      "magic": "BRUN100",
+      "width": 40,
+      "height": 150,
+      "cellBytes": 2,
+      "elementType": "uint16le",
+      "count": 6000,
+      "byteLength": 12000,
+      "sha256": "00e1f6c2c7e257aa55f2f7e50e11e09b570745842c70e6f042bca44322d2929d",
+      "distinctValues": 3,
+      "maxValue": 33,
+      "histogram": {
+        "0": 5208,
+        "1": 400,
+        "33": 392
+      }
+    },
+    {
+      "id": "STGf01",
+      "stage": 1,
+      "layer": "f",
+      "file": "maps/STGf01.u16le",
+      "source": "Dat/STGf01.brm",
+      "sourceOffset": 12,
+      "rawFile": "original/STGf01.brm",
+      "magic": "BRUN100",
+      "width": 40,
+      "height": 180,
+      "cellBytes": 2,
+      "elementType": "uint16le",
+      "count": 7200,
+      "byteLength": 14400,
+      "sha256": "9684681aa6eaf1b2b51421d618deaaba5ebc48bd2a46cb467d0c42de828e2cdd",
+      "distinctValues": 198,
+      "maxValue": 279,
+      "histogram": {
+        "0": 4818,
+        "1": 23,
+        "2": 23,
+        "3": 29,
+        "4": 27,
+        "5": 25,
+        "6": 26,
+        "7": 21,
+        "8": 20,
+        "9": 20,
+        "10": 18,
+        "20": 20,
+        "21": 20,
+        "22": 24,
+        "23": 25,
+        "24": 26,
+        "25": 24,
+        "27": 1,
+        "29": 2,
+        "31": 1,
+        "32": 3,
+        "33": 1,
+        "34": 3,
+        "35": 1,
+        "36": 1,
+        "38": 29,
+        "39": 28,
+        "41": 24,
+        "42": 23,
+        "43": 29,
+        "44": 28,
+        "45": 26,
+        "46": 26,
+        "47": 22,
+        "48": 21,
+        "49": 21,
+        "50": 19,
+        "60": 32,
+        "61": 29,
+        "62": 31,
+        "63": 34,
+        "64": 29,
+        "65": 28,
+        "66": 1,
+        "67": 1,
+        "68": 3,
+        "69": 2,
+        "70": 2,
+        "71": 1,
+        "72": 3,
+        "73": 5,
+        "74": 4,
+        "75": 2,
+        "76": 1,
+        "77": 1,
+        "78": 30,
+        "79": 30,
+        "82": 1,
+        "83": 1,
+        "84": 10,
+        "85": 9,
+        "87": 1,
+        "88": 1,
+        "89": 1,
+        "100": 28,
+        "101": 27,
+        "102": 26,
+        "103": 28,
+        "104": 24,
+        "105": 24,
+        "106": 1,
+        "107": 3,
+        "108": 3,
+        "109": 3,
+        "110": 2,
+        "111": 2,
+        "112": 4,
+        "113": 4,
+        "114": 2,
+        "115": 2,
+        "116": 2,
+        "117": 1,
+        "118": 32,
+        "119": 32,
+        "122": 1,
+        "123": 1,
+        "124": 10,
+        "125": 9,
+        "127": 1,
+        "128": 1,
+        "129": 1,
+        "140": 30,
+        "141": 30,
+        "142": 31,
+        "143": 33,
+        "144": 29,
+        "145": 28,
+        "146": 1,
+        "147": 1,
+        "148": 2,
+        "149": 1,
+        "150": 2,
+        "152": 4,
+        "153": 5,
+        "154": 2,
+        "155": 1,
+        "156": 1,
+        "157": 2,
+        "158": 18,
+        "159": 18,
+        "160": 12,
+        "161": 12,
+        "162": 13,
+        "163": 14,
+        "164": 13,
+        "165": 12,
+        "166": 12,
+        "167": 12,
+        "168": 25,
+        "169": 31,
+        "170": 29,
+        "171": 23,
+        "180": 28,
+        "181": 29,
+        "182": 31,
+        "183": 33,
+        "184": 29,
+        "185": 27,
+        "186": 1,
+        "187": 1,
+        "188": 1,
+        "189": 1,
+        "192": 4,
+        "193": 4,
+        "194": 1,
+        "195": 1,
+        "196": 1,
+        "197": 1,
+        "200": 12,
+        "201": 12,
+        "202": 13,
+        "203": 14,
+        "204": 13,
+        "205": 12,
+        "206": 12,
+        "207": 12,
+        "208": 37,
+        "209": 43,
+        "210": 42,
+        "211": 36,
+        "220": 3,
+        "221": 3,
+        "222": 2,
+        "223": 5,
+        "224": 5,
+        "225": 3,
+        "228": 2,
+        "229": 2,
+        "232": 2,
+        "233": 1,
+        "234": 1,
+        "235": 1,
+        "236": 1,
+        "238": 1,
+        "239": 1,
+        "241": 12,
+        "242": 13,
+        "243": 14,
+        "244": 13,
+        "245": 12,
+        "246": 12,
+        "248": 13,
+        "249": 14,
+        "250": 13,
+        "251": 12,
+        "252": 6,
+        "253": 6,
+        "254": 5,
+        "255": 5,
+        "256": 5,
+        "257": 4,
+        "258": 5,
+        "259": 6,
+        "260": 3,
+        "261": 3,
+        "262": 3,
+        "263": 6,
+        "264": 5,
+        "265": 3,
+        "268": 2,
+        "269": 2,
+        "272": 1,
+        "273": 1,
+        "274": 1,
+        "275": 1,
+        "276": 1,
+        "278": 1,
+        "279": 1
+      }
+    },
+    {
+      "id": "STGf02",
+      "stage": 2,
+      "layer": "f",
+      "file": "maps/STGf02.u16le",
+      "source": "Dat/STGf02.brm",
+      "sourceOffset": 12,
+      "rawFile": "original/STGf02.brm",
+      "magic": "BRUN100",
+      "width": 40,
+      "height": 150,
+      "cellBytes": 2,
+      "elementType": "uint16le",
+      "count": 6000,
+      "byteLength": 12000,
+      "sha256": "d7ef1b9ded6a8b7ea83e13ad343c72c5a82498b758e83cdb250465b598265a81",
+      "distinctValues": 158,
+      "maxValue": 279,
+      "histogram": {
+        "0": 3706,
+        "1": 22,
+        "2": 23,
+        "3": 29,
+        "4": 27,
+        "5": 26,
+        "6": 25,
+        "7": 23,
+        "8": 22,
+        "9": 19,
+        "10": 22,
+        "20": 11,
+        "21": 12,
+        "22": 14,
+        "23": 14,
+        "24": 7,
+        "25": 9,
+        "28": 1,
+        "29": 2,
+        "31": 3,
+        "32": 3,
+        "34": 1,
+        "36": 5,
+        "38": 28,
+        "39": 29,
+        "41": 23,
+        "42": 23,
+        "43": 29,
+        "44": 27,
+        "45": 26,
+        "46": 25,
+        "47": 23,
+        "48": 23,
+        "49": 20,
+        "50": 23,
+        "60": 19,
+        "61": 19,
+        "62": 18,
+        "63": 18,
+        "64": 13,
+        "65": 14,
+        "66": 1,
+        "69": 2,
+        "70": 4,
+        "71": 3,
+        "72": 3,
+        "73": 1,
+        "74": 2,
+        "75": 3,
+        "76": 4,
+        "77": 3,
+        "78": 31,
+        "79": 31,
+        "80": 1,
+        "87": 1,
+        "100": 17,
+        "101": 18,
+        "102": 18,
+        "103": 17,
+        "104": 12,
+        "105": 13,
+        "106": 1,
+        "109": 2,
+        "110": 4,
+        "111": 3,
+        "112": 3,
+        "114": 2,
+        "115": 3,
+        "116": 4,
+        "117": 4,
+        "118": 22,
+        "119": 22,
+        "120": 1,
+        "127": 1,
+        "140": 41,
+        "141": 41,
+        "142": 40,
+        "143": 40,
+        "144": 33,
+        "145": 32,
+        "156": 8,
+        "157": 8,
+        "158": 25,
+        "159": 25,
+        "160": 12,
+        "161": 12,
+        "162": 12,
+        "163": 12,
+        "164": 11,
+        "165": 11,
+        "166": 11,
+        "167": 11,
+        "168": 29,
+        "169": 29,
+        "170": 33,
+        "171": 33,
+        "180": 40,
+        "181": 39,
+        "182": 37,
+        "183": 37,
+        "184": 30,
+        "185": 29,
+        "196": 8,
+        "197": 8,
+        "198": 4,
+        "199": 3,
+        "200": 12,
+        "201": 12,
+        "202": 12,
+        "203": 12,
+        "204": 11,
+        "205": 11,
+        "206": 11,
+        "207": 11,
+        "208": 46,
+        "209": 46,
+        "210": 49,
+        "211": 49,
+        "220": 8,
+        "221": 12,
+        "222": 12,
+        "223": 10,
+        "224": 9,
+        "225": 9,
+        "226": 1,
+        "227": 1,
+        "236": 2,
+        "237": 1,
+        "241": 12,
+        "242": 12,
+        "243": 12,
+        "244": 11,
+        "245": 11,
+        "246": 11,
+        "248": 12,
+        "249": 12,
+        "250": 11,
+        "251": 11,
+        "252": 5,
+        "253": 5,
+        "254": 4,
+        "255": 4,
+        "256": 7,
+        "257": 7,
+        "258": 2,
+        "259": 2,
+        "260": 8,
+        "261": 12,
+        "262": 13,
+        "263": 12,
+        "264": 11,
+        "265": 11,
+        "266": 1,
+        "267": 1,
+        "276": 1,
+        "277": 1,
+        "278": 2,
+        "279": 2
+      }
+    },
+    {
+      "id": "STGf03",
+      "stage": 3,
+      "layer": "f",
+      "file": "maps/STGf03.u16le",
+      "source": "Dat/STGf03.brm",
+      "sourceOffset": 12,
+      "rawFile": "original/STGf03.brm",
+      "magic": "BRUN100",
+      "width": 40,
+      "height": 150,
+      "cellBytes": 2,
+      "elementType": "uint16le",
+      "count": 6000,
+      "byteLength": 12000,
+      "sha256": "36aab3f64d3be11caba0d8285a80e25e2fb744cb4d1930987faeb2dd95306911",
+      "distinctValues": 105,
+      "maxValue": 279,
+      "histogram": {
+        "0": 4258,
+        "1": 12,
+        "2": 13,
+        "3": 18,
+        "4": 20,
+        "5": 21,
+        "6": 21,
+        "7": 18,
+        "8": 18,
+        "9": 14,
+        "10": 15,
+        "20": 30,
+        "21": 30,
+        "22": 30,
+        "23": 29,
+        "24": 22,
+        "25": 23,
+        "38": 16,
+        "39": 15,
+        "41": 13,
+        "42": 14,
+        "43": 19,
+        "44": 20,
+        "45": 21,
+        "46": 21,
+        "47": 18,
+        "48": 18,
+        "49": 14,
+        "50": 16,
+        "60": 35,
+        "61": 35,
+        "62": 35,
+        "63": 35,
+        "64": 30,
+        "65": 29,
+        "78": 18,
+        "79": 18,
+        "88": 2,
+        "89": 2,
+        "100": 35,
+        "101": 35,
+        "102": 35,
+        "103": 35,
+        "104": 30,
+        "105": 29,
+        "118": 19,
+        "119": 19,
+        "126": 2,
+        "127": 2,
+        "128": 2,
+        "129": 2,
+        "145": 1,
+        "156": 9,
+        "157": 9,
+        "158": 13,
+        "159": 12,
+        "160": 9,
+        "161": 9,
+        "162": 9,
+        "163": 11,
+        "164": 11,
+        "165": 9,
+        "166": 9,
+        "167": 9,
+        "168": 31,
+        "169": 39,
+        "170": 39,
+        "171": 31,
+        "185": 1,
+        "196": 9,
+        "197": 9,
+        "198": 13,
+        "199": 13,
+        "200": 9,
+        "201": 9,
+        "202": 9,
+        "203": 11,
+        "204": 11,
+        "205": 9,
+        "206": 9,
+        "207": 9,
+        "208": 42,
+        "209": 50,
+        "210": 50,
+        "211": 42,
+        "240": 10,
+        "241": 9,
+        "242": 9,
+        "243": 11,
+        "244": 11,
+        "245": 9,
+        "246": 9,
+        "247": 10,
+        "248": 9,
+        "249": 11,
+        "250": 11,
+        "251": 9,
+        "252": 6,
+        "253": 6,
+        "254": 3,
+        "255": 3,
+        "256": 7,
+        "257": 7,
+        "278": 2,
+        "279": 2
+      }
+    }
+  ],
+  "effects": [
+    {
+      "id": 0,
+      "file": "../audio/effects/wlk-000.wav",
+      "source": "Dat/MysticA.wlk",
+      "sourceOffset": 1202,
+      "pcmBytes": 4786,
+      "pcmSha256": "1f88ec97239c24588a5223ce4844996529728093bfd5ffd14c96c33d7ac373da",
+      "sampleRate": 22050,
+      "channels": 1,
+      "bitsPerSample": 16,
+      "samples": 2393,
+      "seconds": 0.108526,
+      "flags": "0x80ff",
+      "reserved": [
+        0,
+        0
+      ],
+      "originalName": "01-1 通常攻撃ヒット１.wav",
+      "originalPath": "C:\\DEV\\FreeLine\\S_E\\WLK\\01-1 通常攻撃ヒット１.wav",
+      "nameRange": [
+        1034616,
+        25
+      ],
+      "originalPathRange": [
+        1035094,
+        49
+      ],
+      "waveSha256": "4f49b4d0b0280fb9e9f0918e19816388ccb6b7b0e8e98f94bd81a8099d59d8e7"
+    },
+    {
+      "id": 1,
+      "file": "../audio/effects/wlk-001.wav",
+      "source": "Dat/MysticA.wlk",
+      "sourceOffset": 5988,
+      "pcmBytes": 5022,
+      "pcmSha256": "40a5b822f0998094348188dbd6b3cd5db697261fb77a8695516b40e6609b8bbe",
+      "sampleRate": 22050,
+      "channels": 1,
+      "bitsPerSample": 16,
+      "samples": 2511,
+      "seconds": 0.113878,
+      "flags": "0x80ff",
+      "reserved": [
+        0,
+        0
+      ],
+      "originalName": "01-2 通常攻撃ヒット２.wav",
+      "originalPath": "C:\\DEV\\FreeLine\\S_E\\WLK\\01-2 通常攻撃ヒット２.wav",
+      "nameRange": [
+        1034641,
+        25
+      ],
+      "originalPathRange": [
+        1035143,
+        49
+      ],
+      "waveSha256": "0af2d6d2b9488716bdd62b4b123f2543626e453acec5901de7787350584b9389"
+    },
+    {
+      "id": 2,
+      "file": "../audio/effects/wlk-002.wav",
+      "source": "Dat/MysticA.wlk",
+      "sourceOffset": 11010,
+      "pcmBytes": 15512,
+      "pcmSha256": "2d6112200803aa9cc3ebeec063358a252b6580d13c348821d8e2b4fb8a30fe40",
+      "sampleRate": 22050,
+      "channels": 1,
+      "bitsPerSample": 16,
+      "samples": 7756,
+      "seconds": 0.351746,
+      "flags": "0x80ff",
+      "reserved": [
+        0,
+        0
+      ],
+      "originalName": "02 鎧通し.wav",
+      "originalPath": "C:\\DEV\\FreeLine\\S_E\\WLK\\02 鎧通し.wav",
+      "nameRange": [
+        1034666,
+        13
+      ],
+      "originalPathRange": [
+        1035192,
+        37
+      ],
+      "waveSha256": "f711bbf8d697b99a55d9fc77b01c708a611357cf5b7b2648ff6ca281cbd18014"
+    },
+    {
+      "id": 3,
+      "file": "../audio/effects/wlk-003.wav",
+      "source": "Dat/MysticA.wlk",
+      "sourceOffset": 26522,
+      "pcmBytes": 69056,
+      "pcmSha256": "7d1e689f159e45b415274c1c8d7c7e7a83b0cbc4d52abdf02971bd68be46f4b9",
+      "sampleRate": 22050,
+      "channels": 1,
+      "bitsPerSample": 16,
+      "samples": 34528,
+      "seconds": 1.565896,
+      "flags": "0x80ff",
+      "reserved": [
+        0,
+        0
+      ],
+      "originalName": "03 落雷.wav",
+      "originalPath": "C:\\DEV\\FreeLine\\S_E\\WLK\\03 落雷.wav",
+      "nameRange": [
+        1034679,
+        11
+      ],
+      "originalPathRange": [
+        1035229,
+        35
+      ],
+      "waveSha256": "b423be0ccae143fc9bb87376e88f439506d1d086a22c0e9489c2b0f18918c411"
+    },
+    {
+      "id": 4,
+      "file": "../audio/effects/wlk-004.wav",
+      "source": "Dat/MysticA.wlk",
+      "sourceOffset": 95578,
+      "pcmBytes": 10782,
+      "pcmSha256": "4f6797f207e9dbd3e5a2b7acc886a5ee2ba8d859f89a29462bab212156810f78",
+      "sampleRate": 22050,
+      "channels": 1,
+      "bitsPerSample": 16,
+      "samples": 5391,
+      "seconds": 0.24449,
+      "flags": "0x80ff",
+      "reserved": [
+        0,
+        0
+      ],
+      "originalName": "04-2 攻撃相殺２.wav",
+      "originalPath": "C:\\DEV\\FreeLine\\S_E\\WLK\\04-2 攻撃相殺２.wav",
+      "nameRange": [
+        1034690,
+        19
+      ],
+      "originalPathRange": [
+        1035264,
+        43
+      ],
+      "waveSha256": "7455bf458a1194a541b616188aec1928bba319dcc54271de3d70dbe8a9348554"
+    },
+    {
+      "id": 5,
+      "file": "../audio/effects/wlk-005.wav",
+      "source": "Dat/MysticA.wlk",
+      "sourceOffset": 106360,
+      "pcmBytes": 18388,
+      "pcmSha256": "31cc7a34bb9987a77495f08820a0781904ca0f4567c1a29684a1e0c5170e4c91",
+      "sampleRate": 22050,
+      "channels": 1,
+      "bitsPerSample": 16,
+      "samples": 9194,
+      "seconds": 0.416961,
+      "flags": "0x80ff",
+      "reserved": [
+        0,
+        0
+      ],
+      "originalName": "05 吹き飛ばしヒット.wav",
+      "originalPath": "C:\\DEV\\FreeLine\\S_E\\WLK\\05 吹き飛ばしヒット.wav",
+      "nameRange": [
+        1034709,
+        23
+      ],
+      "originalPathRange": [
+        1035307,
+        47
+      ],
+      "waveSha256": "8a64f288fcdce76c3709b36727d085f8b7ea72ec234d9276c6add2103a4855e1"
+    },
+    {
+      "id": 6,
+      "file": "../audio/effects/wlk-006.wav",
+      "source": "Dat/MysticA.wlk",
+      "sourceOffset": 124748,
+      "pcmBytes": 30920,
+      "pcmSha256": "88bca9a53b58923c6c238d064ebbca449d314e64dfbe3f331df7239529c107f2",
+      "sampleRate": 22050,
+      "channels": 1,
+      "bitsPerSample": 16,
+      "samples": 15460,
+      "seconds": 0.701134,
+      "flags": "0x80ff",
+      "reserved": [
+        0,
+        0
+      ],
+      "originalName": "11ダメージ３.wav",
+      "originalPath": "C:\\DEV\\FreeLine\\S_E\\WLK\\11ダメージ３.wav",
+      "nameRange": [
+        1034732,
+        16
+      ],
+      "originalPathRange": [
+        1035354,
+        40
+      ],
+      "waveSha256": "cd9010f82a8d7033907adc1a4f62486722a8c5382f422b24de33459dc24bc3bb"
+    },
+    {
+      "id": 7,
+      "file": "../audio/effects/wlk-007.wav",
+      "source": "Dat/MysticA.wlk",
+      "sourceOffset": 155668,
+      "pcmBytes": 10166,
+      "pcmSha256": "52d1ee26fa90c876e7fcaa52de3712fabd56551807cc736de463fb49a9aaf021",
+      "sampleRate": 22050,
+      "channels": 1,
+      "bitsPerSample": 16,
+      "samples": 5083,
+      "seconds": 0.230522,
+      "flags": "0x80ff",
+      "reserved": [
+        0,
+        0
+      ],
+      "originalName": "07-2 防御２.wav",
+      "originalPath": "C:\\DEV\\FreeLine\\S_E\\WLK\\07-2 防御２.wav",
+      "nameRange": [
+        1034748,
+        15
+      ],
+      "originalPathRange": [
+        1035394,
+        39
+      ],
+      "waveSha256": "b3d7f79dccc367b99a87c419362023c365c74660c40a8bc45bf6e1ba4474dcfe"
+    },
+    {
+      "id": 8,
+      "file": "../audio/effects/wlk-008.wav",
+      "source": "Dat/MysticA.wlk",
+      "sourceOffset": 165834,
+      "pcmBytes": 15260,
+      "pcmSha256": "ced96712a0f35250f14ed042464e0db25fd049d7eaeec8a9cc18bc602d1d1b4b",
+      "sampleRate": 22050,
+      "channels": 1,
+      "bitsPerSample": 16,
+      "samples": 7630,
+      "seconds": 0.346032,
+      "flags": "0x80ff",
+      "reserved": [
+        0,
+        0
+      ],
+      "originalName": "08 壁や床に激突.wav",
+      "originalPath": "C:\\DEV\\FreeLine\\S_E\\WLK\\08 壁や床に激突.wav",
+      "nameRange": [
+        1034763,
+        19
+      ],
+      "originalPathRange": [
+        1035433,
+        43
+      ],
+      "waveSha256": "614015b8ddef3a4b0b8f2b58ceb8ef8f1660d9d9333ef5acbb56ea1448af3c5e"
+    },
+    {
+      "id": 9,
+      "file": "../audio/effects/wlk-009.wav",
+      "source": "Dat/MysticA.wlk",
+      "sourceOffset": 181094,
+      "pcmBytes": 11506,
+      "pcmSha256": "690801b7df00b6a2965eb78502afcf37441f26ce82022edde123ab6c782c4664",
+      "sampleRate": 22050,
+      "channels": 1,
+      "bitsPerSample": 16,
+      "samples": 5753,
+      "seconds": 0.260907,
+      "flags": "0x80ff",
+      "reserved": [
+        0,
+        0
+      ],
+      "originalName": "09 斬撃喰らい.wav",
+      "originalPath": "C:\\DEV\\FreeLine\\S_E\\WLK\\09 斬撃喰らい.wav",
+      "nameRange": [
+        1034782,
+        17
+      ],
+      "originalPathRange": [
+        1035476,
+        41
+      ],
+      "waveSha256": "04d4cd44765b1498760413398778d565091002bed731e045df6c9bb21bb3935e"
+    },
+    {
+      "id": 10,
+      "file": "../audio/effects/wlk-010.wav",
+      "source": "Dat/MysticA.wlk",
+      "sourceOffset": 192600,
+      "pcmBytes": 5532,
+      "pcmSha256": "1a7680881ba1097d814afb6277cb16177b455731c024b331f89665f69c0cfb3d",
+      "sampleRate": 22050,
+      "channels": 1,
+      "bitsPerSample": 16,
+      "samples": 2766,
+      "seconds": 0.125442,
+      "flags": "0x80ff",
+      "reserved": [
+        0,
+        0
+      ],
+      "originalName": "10 打撃喰らい.wav",
+      "originalPath": "C:\\DEV\\FreeLine\\S_E\\WLK\\10 打撃喰らい.wav",
+      "nameRange": [
+        1034799,
+        17
+      ],
+      "originalPathRange": [
+        1035517,
+        41
+      ],
+      "waveSha256": "de15d8cee35a7d5bedcebafe98501ae66c139cb6645749c7b8e2e3d115fe70ba"
+    },
+    {
+      "id": 11,
+      "file": "../audio/effects/wlk-011.wav",
+      "source": "Dat/MysticA.wlk",
+      "sourceOffset": 198132,
+      "pcmBytes": 15132,
+      "pcmSha256": "ae7d2e7b1020359355e89737dd7550599bef224aaf47d5cddfe871c728f78009",
+      "sampleRate": 22050,
+      "channels": 1,
+      "bitsPerSample": 16,
+      "samples": 7566,
+      "seconds": 0.343129,
+      "flags": "0x80ff",
+      "reserved": [
+        0,
+        0
+      ],
+      "originalName": "11 吹き飛ばし喰らい.wav",
+      "originalPath": "C:\\DEV\\FreeLine\\S_E\\WLK\\11 吹き飛ばし喰らい.wav",
+      "nameRange": [
+        1034816,
+        23
+      ],
+      "originalPathRange": [
+        1035558,
+        47
+      ],
+      "waveSha256": "dc02ee470250265b473c2e7dea974a845b1554c8489bb8e2b44fe45eecf49f23"
+    },
+    {
+      "id": 12,
+      "file": "../audio/effects/wlk-012.wav",
+      "source": "Dat/MysticA.wlk",
+      "sourceOffset": 213264,
+      "pcmBytes": 7170,
+      "pcmSha256": "34d0d9cc3431206715c9d15f829da90a2865cd6c54935e24805ed5e5ea9c3c04",
+      "sampleRate": 22050,
+      "channels": 1,
+      "bitsPerSample": 16,
+      "samples": 3585,
+      "seconds": 0.162585,
+      "flags": "0x80ff",
+      "reserved": [
+        0,
+        0
+      ],
+      "originalName": "12 ナイフ投擲.WAV",
+      "originalPath": "C:\\DEV\\FreeLine\\S_E\\WLK\\12 ナイフ投擲.WAV",
+      "nameRange": [
+        1034839,
+        17
+      ],
+      "originalPathRange": [
+        1035605,
+        41
+      ],
+      "waveSha256": "1ce50f05c1fae39bb0fb74fb1f64c906a558893696550563380223397c21f3d6"
+    },
+    {
+      "id": 13,
+      "file": "../audio/effects/wlk-013.wav",
+      "source": "Dat/MysticA.wlk",
+      "sourceOffset": 220434,
+      "pcmBytes": 14332,
+      "pcmSha256": "b9c8d8e08c0ec4163b02882ee378598ddd1fca285cfe26da02c20fa37458e4d2",
+      "sampleRate": 22050,
+      "channels": 1,
+      "bitsPerSample": 16,
+      "samples": 7166,
+      "seconds": 0.324989,
+      "flags": "0x80ff",
+      "reserved": [
+        0,
+        0
+      ],
+      "originalName": "13 肋骨投擲.wav",
+      "originalPath": "C:\\DEV\\FreeLine\\S_E\\WLK\\13 肋骨投擲.wav",
+      "nameRange": [
+        1034856,
+        15
+      ],
+      "originalPathRange": [
+        1035646,
+        39
+      ],
+      "waveSha256": "f17834aae1f8476680504c1c32b35c4c6749526402480a1def2fb0e8acf51e0e"
+    },
+    {
+      "id": 14,
+      "file": "../audio/effects/wlk-014.wav",
+      "source": "Dat/MysticA.wlk",
+      "sourceOffset": 234766,
+      "pcmBytes": 4048,
+      "pcmSha256": "156829639f8374bb427a26035c5611fd167ec86e19d238ea79c045f189a9bef4",
+      "sampleRate": 22050,
+      "channels": 1,
+      "bitsPerSample": 8,
+      "samples": 4048,
+      "seconds": 0.183583,
+      "flags": "0x00ff",
+      "reserved": [
+        0,
+        0
+      ],
+      "originalName": "足音.wavwav",
+      "originalPath": "C:\\DEV\\FreeLine\\S_E\\WLK\\足音.wav",
+      "nameRange": [
+        1034871,
+        11
+      ],
+      "originalPathRange": [
+        1035685,
+        32
+      ],
+      "waveSha256": "e3118d6c3eb11dc65bc622f2d23ac09c808d305a19d60945885a2ecf24441c10"
+    },
+    {
+      "id": 15,
+      "file": "../audio/effects/wlk-015.wav",
+      "source": "Dat/MysticA.wlk",
+      "sourceOffset": 238814,
+      "pcmBytes": 56978,
+      "pcmSha256": "858b9362fc0ed97a58c70a20a536154a55b5825ebc5b6b76f4be006d43a11e76",
+      "sampleRate": 22050,
+      "channels": 1,
+      "bitsPerSample": 16,
+      "samples": 28489,
+      "seconds": 1.292018,
+      "flags": "0x80ff",
+      "reserved": [
+        0,
+        0
+      ],
+      "originalName": "15 召喚.wav",
+      "originalPath": "C:\\DEV\\FreeLine\\S_E\\WLK\\15 召喚.wav",
+      "nameRange": [
+        1034882,
+        11
+      ],
+      "originalPathRange": [
+        1035717,
+        35
+      ],
+      "waveSha256": "6398182ab885637b39fc734aa54e928ddef11f27333f37d5e6a4a3c61db862f5"
+    },
+    {
+      "id": 16,
+      "file": "../audio/effects/wlk-016.wav",
+      "source": "Dat/MysticA.wlk",
+      "sourceOffset": 295792,
+      "pcmBytes": 24374,
+      "pcmSha256": "693689917bdc38a2a4d19ed9114b250de848471e90e7bcefd1f78b4b3113bedd",
+      "sampleRate": 22050,
+      "channels": 1,
+      "bitsPerSample": 16,
+      "samples": 12187,
+      "seconds": 0.552698,
+      "flags": "0x81ff",
+      "reserved": [
+        0,
+        0
+      ],
+      "originalName": "16 火の玉発射.wav",
+      "originalPath": "C:\\DEV\\FreeLine\\S_E\\WLK\\16 火の玉発射.wav",
+      "nameRange": [
+        1034893,
+        17
+      ],
+      "originalPathRange": [
+        1035752,
+        41
+      ],
+      "waveSha256": "49d90ae480cd581ec777b6f41d571d9b515ff35547ed48b762b91933ab371ab7"
+    },
+    {
+      "id": 17,
+      "file": "../audio/effects/wlk-017.wav",
+      "source": "Dat/MysticA.wlk",
+      "sourceOffset": 320166,
+      "pcmBytes": 36036,
+      "pcmSha256": "e4648cce445fb9cc5b2c0e44e661e26536c541d7101870f52de0f1dbc46fd39f",
+      "sampleRate": 22050,
+      "channels": 1,
+      "bitsPerSample": 16,
+      "samples": 18018,
+      "seconds": 0.817143,
+      "flags": "0x80ff",
+      "reserved": [
+        0,
+        0
+      ],
+      "originalName": "17 燃える.wav",
+      "originalPath": "C:\\DEV\\FreeLine\\S_E\\WLK\\17 燃える.wav",
+      "nameRange": [
+        1034910,
+        13
+      ],
+      "originalPathRange": [
+        1035793,
+        37
+      ],
+      "waveSha256": "1010c0bc468c78359543a7a85045dda93ee6954e0812e209eacd41daaa743b19"
+    },
+    {
+      "id": 18,
+      "file": "../audio/effects/wlk-018.wav",
+      "source": "Dat/MysticA.wlk",
+      "sourceOffset": 356202,
+      "pcmBytes": 77398,
+      "pcmSha256": "91e4021e52adca7cbd26fd36b3d164ecbeaa5bad3b1b2f7779ab10dec0dae30d",
+      "sampleRate": 22050,
+      "channels": 1,
+      "bitsPerSample": 16,
+      "samples": 38699,
+      "seconds": 1.755057,
+      "flags": "0x81ff",
+      "reserved": [
+        0,
+        0
+      ],
+      "originalName": "18 雑魚消滅.wav",
+      "originalPath": "C:\\DEV\\FreeLine\\S_E\\WLK\\18 雑魚消滅.wav",
+      "nameRange": [
+        1034923,
+        15
+      ],
+      "originalPathRange": [
+        1035830,
+        39
+      ],
+      "waveSha256": "24240fb9fa98fbce9616c2f6dd39379c5a18ad1eb89235df02f4bc465501a8f3"
+    },
+    {
+      "id": 19,
+      "file": "../audio/effects/wlk-019.wav",
+      "source": "Dat/MysticA.wlk",
+      "sourceOffset": 433600,
+      "pcmBytes": 199938,
+      "pcmSha256": "bad2938b1880278b60165e5cac900b541ecc367283811b06b36419edc32962a6",
+      "sampleRate": 22050,
+      "channels": 1,
+      "bitsPerSample": 16,
+      "samples": 99969,
+      "seconds": 4.533741,
+      "flags": "0x81ff",
+      "reserved": [
+        0,
+        0
+      ],
+      "originalName": "19 ボス消滅.wav",
+      "originalPath": "C:\\DEV\\FreeLine\\S_E\\WLK\\19 ボス消滅.wav",
+      "nameRange": [
+        1034938,
+        15
+      ],
+      "originalPathRange": [
+        1035869,
+        39
+      ],
+      "waveSha256": "41ce8628d5d6ab86b4e1e6249b74ec5ad149ce72e599fd1dbfb5555e70f750d7"
+    },
+    {
+      "id": 20,
+      "file": "../audio/effects/wlk-020.wav",
+      "source": "Dat/MysticA.wlk",
+      "sourceOffset": 633538,
+      "pcmBytes": 164356,
+      "pcmSha256": "2646e376880f1f5438e9a1d3f2b4ee5a5aec38d8ed343f07db94cefacd4a2fd2",
+      "sampleRate": 22050,
+      "channels": 1,
+      "bitsPerSample": 16,
+      "samples": 82178,
+      "seconds": 3.726893,
+      "flags": "0x80ff",
+      "reserved": [
+        0,
+        0
+      ],
+      "originalName": "20-6 遠吠えCp.wav",
+      "originalPath": "C:\\DEV\\FreeLine\\S_E\\WLK\\20-6 遠吠えCp.wav",
+      "nameRange": [
+        1034953,
+        17
+      ],
+      "originalPathRange": [
+        1035908,
+        41
+      ],
+      "waveSha256": "7f9254d68635ac82b1572fd1a7804312608c304543c3d5f6a6368b16d20e2b7f"
+    },
+    {
+      "id": 21,
+      "file": "../audio/effects/wlk-021.wav",
+      "source": "Dat/MysticA.wlk",
+      "sourceOffset": 797894,
+      "pcmBytes": 41084,
+      "pcmSha256": "ddbef885321f2976c332427055d09de9e06b86b937d02694509fa4ad56a7f2b3",
+      "sampleRate": 22050,
+      "channels": 1,
+      "bitsPerSample": 8,
+      "samples": 41084,
+      "seconds": 1.86322,
+      "flags": "0x00ff",
+      "reserved": [
+        0,
+        0
+      ],
+      "originalName": "決定.wav",
+      "originalPath": "C:\\DEV\\FreeLine\\S_E\\WLK\\候補\\決定.wav",
+      "nameRange": [
+        1034970,
+        8
+      ],
+      "originalPathRange": [
+        1035949,
+        37
+      ],
+      "waveSha256": "a5600014c7aac3b95af81056f005c59bd2fcd2fa01be6ca87628e808656d99a6"
+    },
+    {
+      "id": 22,
+      "file": "../audio/effects/wlk-022.wav",
+      "source": "Dat/MysticA.wlk",
+      "sourceOffset": 838978,
+      "pcmBytes": 4587,
+      "pcmSha256": "35f6610978f5b27fa798955a75a80c3ea19445ce54f689a57274040ab321a99c",
+      "sampleRate": 22050,
+      "channels": 1,
+      "bitsPerSample": 8,
+      "samples": 4587,
+      "seconds": 0.208027,
+      "flags": "0x00ff",
+      "reserved": [
+        0,
+        0
+      ],
+      "originalName": "選択１.wav",
+      "originalPath": "C:\\DEV\\FreeLine\\S_E\\WLK\\候補\\選択１.wav",
+      "nameRange": [
+        1034978,
+        10
+      ],
+      "originalPathRange": [
+        1035986,
+        39
+      ],
+      "waveSha256": "6f2dee3d50a03c9201e88ea4815a580dc6872ea1f51ca83ad4367fcec3a91976"
+    },
+    {
+      "id": 23,
+      "file": "../audio/effects/wlk-023.wav",
+      "source": "Dat/MysticA.wlk",
+      "sourceOffset": 843565,
+      "pcmBytes": 7926,
+      "pcmSha256": "48192ed5fe4094575ce0e99a27bd67dc5bda539a5c90eb35a7b22b4f58549dc7",
+      "sampleRate": 22050,
+      "channels": 1,
+      "bitsPerSample": 8,
+      "samples": 7926,
+      "seconds": 0.359456,
+      "flags": "0x00ff",
+      "reserved": [
+        0,
+        0
+      ],
+      "originalName": "選択２.wav",
+      "originalPath": "C:\\DEV\\FreeLine\\S_E\\WLK\\候補\\選択２.wav",
+      "nameRange": [
+        1034988,
+        10
+      ],
+      "originalPathRange": [
+        1036025,
+        39
+      ],
+      "waveSha256": "5b94c494edacf2c89a7675582a675e5d9efc34e3e0b26eaf932a558e6515ed57"
+    },
+    {
+      "id": 24,
+      "file": "../audio/effects/wlk-024.wav",
+      "source": "Dat/MysticA.wlk",
+      "sourceOffset": 851491,
+      "pcmBytes": 31631,
+      "pcmSha256": "b37edd4f6659e1f4d36feea536706af7c13a9d3fb6be51275d93dce1108e2d2f",
+      "sampleRate": 22050,
+      "channels": 1,
+      "bitsPerSample": 8,
+      "samples": 31631,
+      "seconds": 1.434512,
+      "flags": "0x00ff",
+      "reserved": [
+        0,
+        0
+      ],
+      "originalName": "ポーズ.wav",
+      "originalPath": "C:\\DEV\\FreeLine\\S_E\\WLK\\候補\\ポーズ.wav",
+      "nameRange": [
+        1034998,
+        10
+      ],
+      "originalPathRange": [
+        1036064,
+        39
+      ],
+      "waveSha256": "fb395c42313bba37a57964ac5651dc15d6a2ab0c2935c5a9d7ef462c79935b07"
+    },
+    {
+      "id": 25,
+      "file": "../audio/effects/wlk-025.wav",
+      "source": "Dat/MysticA.wlk",
+      "sourceOffset": 883122,
+      "pcmBytes": 4632,
+      "pcmSha256": "b919cdf89875d16648dc818f8e4ccf21e62354f85537418a8d9ffbf1056a839f",
+      "sampleRate": 22050,
+      "channels": 1,
+      "bitsPerSample": 8,
+      "samples": 4632,
+      "seconds": 0.210068,
+      "flags": "0x00ff",
+      "reserved": [
+        0,
+        0
+      ],
+      "originalName": "空振り１.wav",
+      "originalPath": "C:\\DEV\\FreeLine\\S_E\\WLK\\候補\\空振り１.wav",
+      "nameRange": [
+        1035008,
+        12
+      ],
+      "originalPathRange": [
+        1036103,
+        41
+      ],
+      "waveSha256": "30633330e1e24e2360063e75082b297a891b7ae782d4560bbe5395ea2c7462cf"
+    },
+    {
+      "id": 26,
+      "file": "../audio/effects/wlk-026.wav",
+      "source": "Dat/MysticA.wlk",
+      "sourceOffset": 887754,
+      "pcmBytes": 8000,
+      "pcmSha256": "bf5ed388baaeceb42b215231c572e323f8a9f77fc214d65d16e0518ab9000476",
+      "sampleRate": 11025,
+      "channels": 1,
+      "bitsPerSample": 16,
+      "samples": 4000,
+      "seconds": 0.362812,
+      "flags": "0x80ff",
+      "reserved": [
+        0,
+        0
+      ],
+      "originalName": "空振り２.wav",
+      "originalPath": "C:\\DEV\\FreeLine\\S_E\\WLK\\候補\\空振り２.wav",
+      "nameRange": [
+        1035020,
+        12
+      ],
+      "originalPathRange": [
+        1036144,
+        41
+      ],
+      "waveSha256": "cd56171e1d68b638df29035d51d953b0279e17763882ae7f20ae20b32b18355c"
+    },
+    {
+      "id": 27,
+      "file": "../audio/effects/wlk-027.wav",
+      "source": "Dat/MysticA.wlk",
+      "sourceOffset": 895754,
+      "pcmBytes": 21232,
+      "pcmSha256": "6d6209cdd0035b3683d0101b47e0620d9357e9292e7cdbbebb10d428af711ee5",
+      "sampleRate": 22050,
+      "channels": 1,
+      "bitsPerSample": 16,
+      "samples": 10616,
+      "seconds": 0.481451,
+      "flags": "0x80ff",
+      "reserved": [
+        0,
+        0
+      ],
+      "originalName": "激突.wav",
+      "originalPath": "C:\\DEV\\FreeLine\\S_E\\WLK\\激突.wav",
+      "nameRange": [
+        1035032,
+        8
+      ],
+      "originalPathRange": [
+        1036185,
+        32
+      ],
+      "waveSha256": "51dc599837920d3909dba8939dddec0c7cdcd9fd47ab09bfa9e3742e92f5fc5f"
+    },
+    {
+      "id": 28,
+      "file": "../audio/effects/wlk-028.wav",
+      "source": "Dat/MysticA.wlk",
+      "sourceOffset": 916986,
+      "pcmBytes": 9546,
+      "pcmSha256": "9e3a500bedc8c7bfaecc48bc44a585f6be02c90b82f3a75f648d7f49c428fae2",
+      "sampleRate": 11025,
+      "channels": 1,
+      "bitsPerSample": 16,
+      "samples": 4773,
+      "seconds": 0.432925,
+      "flags": "0x80ff",
+      "reserved": [
+        0,
+        0
+      ],
+      "originalName": "骨.wav",
+      "originalPath": "C:\\DEV\\FreeLine\\S_E\\WLK\\骨.wav",
+      "nameRange": [
+        1035040,
+        6
+      ],
+      "originalPathRange": [
+        1036217,
+        30
+      ],
+      "waveSha256": "2e94963ca95df78921fa30a50871a1bad499421825d356b0bdd375213392ba34"
+    },
+    {
+      "id": 29,
+      "file": "../audio/effects/wlk-029.wav",
+      "source": "Dat/MysticA.wlk",
+      "sourceOffset": 926532,
+      "pcmBytes": 16126,
+      "pcmSha256": "cd4ca7481241497423d6fe9c87f8267541ea8972173b32fd7ac6e0afe2dbff7e",
+      "sampleRate": 22050,
+      "channels": 1,
+      "bitsPerSample": 16,
+      "samples": 8063,
+      "seconds": 0.365669,
+      "flags": "0x80ff",
+      "reserved": [
+        0,
+        0
+      ],
+      "originalName": "落下.wav",
+      "originalPath": "C:\\DEV\\FreeLine\\S_E\\WLK\\落下.wav",
+      "nameRange": [
+        1035046,
+        8
+      ],
+      "originalPathRange": [
+        1036247,
+        32
+      ],
+      "waveSha256": "c2028d5000d6a76add0cdaf1d1639029fd29e18b334c8bd9f933539b356f2501"
+    },
+    {
+      "id": 30,
+      "file": "../audio/effects/wlk-030.wav",
+      "source": "Dat/MysticA.wlk",
+      "sourceOffset": 942658,
+      "pcmBytes": 22946,
+      "pcmSha256": "1767d2ecb72f9b881054278b7e10a02001ec7b9c6c075896b42a28b2d2c2aa9d",
+      "sampleRate": 11025,
+      "channels": 1,
+      "bitsPerSample": 16,
+      "samples": 11473,
+      "seconds": 1.040635,
+      "flags": "0x80ff",
+      "reserved": [
+        0,
+        0
+      ],
+      "originalName": "告.wav",
+      "originalPath": "C:\\DEV\\FreeLine\\S_E\\WLK\\雷予告.wav",
+      "nameRange": [
+        1035054,
+        6
+      ],
+      "originalPathRange": [
+        1036279,
+        34
+      ],
+      "waveSha256": "e3ee48ca5bc5d757cac1a58ee0042097c390ee18ff9abea909a317dd5ccdd50b"
+    },
+    {
+      "id": 31,
+      "file": "../audio/effects/wlk-031.wav",
+      "source": "Dat/MysticA.wlk",
+      "sourceOffset": 965604,
+      "pcmBytes": 12855,
+      "pcmSha256": "38f8de930cc3f3bba95fd82b6d4c1d64c63bbb5390e6f4377b14d476168b6995",
+      "sampleRate": 22050,
+      "channels": 1,
+      "bitsPerSample": 8,
+      "samples": 12855,
+      "seconds": 0.582993,
+      "flags": "0x00ff",
+      "reserved": [
+        0,
+        0
+      ],
+      "originalName": "消え１.wav",
+      "originalPath": "C:\\DEV\\FreeLine\\S_E\\WLK\\候補\\消え１.wav",
+      "nameRange": [
+        1035060,
+        10
+      ],
+      "originalPathRange": [
+        1036313,
+        39
+      ],
+      "waveSha256": "5bf26d2c54f5ba5f4e9f13b81391d52aa72ee30cc49d72137018d4c84f3c5556"
+    },
+    {
+      "id": 32,
+      "file": "../audio/effects/wlk-032.wav",
+      "source": "Dat/MysticA.wlk",
+      "sourceOffset": 978459,
+      "pcmBytes": 8611,
+      "pcmSha256": "3b5a7f779103782a9a10db4b5a77b0fdc55551c5a158795a65574ced44d1ce98",
+      "sampleRate": 22050,
+      "channels": 1,
+      "bitsPerSample": 8,
+      "samples": 8611,
+      "seconds": 0.390522,
+      "flags": "0x00ff",
+      "reserved": [
+        0,
+        0
+      ],
+      "originalName": "消え２.wav",
+      "originalPath": "C:\\DEV\\FreeLine\\S_E\\WLK\\候補\\消え２.wav",
+      "nameRange": [
+        1035070,
+        10
+      ],
+      "originalPathRange": [
+        1036352,
+        39
+      ],
+      "waveSha256": "bb75eb224c46ef2af50ac608704f738841f31ca92ad7f56ff2fb411bb5f17969"
+    },
+    {
+      "id": 33,
+      "file": "../audio/effects/wlk-033.wav",
+      "source": "Dat/MysticA.wlk",
+      "sourceOffset": 987070,
+      "pcmBytes": 12246,
+      "pcmSha256": "e9259ff182245058bd506c949218ccf854129c475eb7a893eea27dc28d2ca5ae",
+      "sampleRate": 5000,
+      "channels": 1,
+      "bitsPerSample": 16,
+      "samples": 6123,
+      "seconds": 1.2246,
+      "flags": "0x80ff",
+      "reserved": [
+        0,
+        0
+      ],
+      "originalName": "煙.wav",
+      "originalPath": "C:\\DEV\\FreeLine\\S_E\\WLK\\候補\\煙.wav",
+      "nameRange": [
+        1035080,
+        6
+      ],
+      "originalPathRange": [
+        1036391,
+        35
+      ],
+      "waveSha256": "d239e3de12cdc9982a08690fe56b07f97fc7723740676a30991765c38fbb2b51"
+    },
+    {
+      "id": 34,
+      "file": "../audio/effects/wlk-034.wav",
+      "source": "Dat/MysticA.wlk",
+      "sourceOffset": 999316,
+      "pcmBytes": 35300,
+      "pcmSha256": "97716f1aecfcc6f4f538a2e3f08489b1f0707e6b8cd945f103b502f109c43b60",
+      "sampleRate": 22050,
+      "channels": 1,
+      "bitsPerSample": 8,
+      "samples": 35300,
+      "seconds": 1.600907,
+      "flags": "0x00ff",
+      "reserved": [
+        0,
+        0
+      ],
+      "originalName": "爆発.wav",
+      "originalPath": "C:\\DEV\\FreeLine\\S_E\\WLK\\候補\\爆発.wav",
+      "nameRange": [
+        1035086,
+        8
+      ],
+      "originalPathRange": [
+        1036426,
+        37
+      ],
+      "waveSha256": "45a1b12a8976c0fd947f2717f280c75af7ee20753c67f961154ab4e7e4536c4e"
+    }
+  ],
+  "music": [
+    {
+      "id": 0,
+      "file": "../audio/music/mlk-000.mid",
+      "source": "Dat/MysticA.mlk",
+      "sourceOffset": 55,
+      "bytes": 24193,
+      "sourceFlag": 1,
+      "sha256": "9c652eb076973b0106fe49dfcdcf1c199b3cc951720080b878d811697a7c6e56",
+      "midiFormat": 0,
+      "tracks": 1,
+      "division": 48,
+      "events": 6227,
+      "noteOn": 3070,
+      "endOfTrackCount": 1,
+      "lastTick": 4998,
+      "firstTempoMicroseconds": 499968
+    },
+    {
+      "id": 1,
+      "file": "../audio/music/mlk-001.mid",
+      "source": "Dat/MysticA.mlk",
+      "sourceOffset": 24248,
+      "bytes": 23612,
+      "sourceFlag": 1,
+      "sha256": "2dcdf5a8a43808e28249e5621fce1a43a6d22fd3661f32ace6011f03a8458d2c",
+      "midiFormat": 0,
+      "tracks": 1,
+      "division": 48,
+      "events": 5894,
+      "noteOn": 2908,
+      "endOfTrackCount": 1,
+      "lastTick": 5382,
+      "firstTempoMicroseconds": 499968
+    },
+    {
+      "id": 2,
+      "file": "../audio/music/mlk-002.mid",
+      "source": "Dat/MysticA.mlk",
+      "sourceOffset": 47860,
+      "bytes": 2489,
+      "sourceFlag": 0,
+      "sha256": "60b7c335d40e39ae0304532e845ca2a1ff97b5a5e0a792c00ad89d7fe1b0afbe",
+      "midiFormat": 0,
+      "tracks": 1,
+      "division": 48,
+      "events": 391,
+      "noteOn": 165,
+      "endOfTrackCount": 1,
+      "lastTick": 342,
+      "firstTempoMicroseconds": 499968
+    },
+    {
+      "id": 3,
+      "file": "../audio/music/mlk-003.mid",
+      "source": "Dat/MysticA.mlk",
+      "sourceOffset": 50349,
+      "bytes": 35046,
+      "sourceFlag": 1,
+      "sha256": "ce5428f2a66d83faf52991c6cf002de420c5dfa0b95c26e5ab9748493c3b4634",
+      "midiFormat": 0,
+      "tracks": 1,
+      "division": 48,
+      "events": 9046,
+      "noteOn": 4478,
+      "endOfTrackCount": 1,
+      "lastTick": 6912,
+      "firstTempoMicroseconds": 499968
+    },
+    {
+      "id": 4,
+      "file": "../audio/music/mlk-004.mid",
+      "source": "Dat/MysticA.mlk",
+      "sourceOffset": 85395,
+      "bytes": 25974,
+      "sourceFlag": 1,
+      "sha256": "78fcd8bc6879d2e1edd0e82207f5358efe7f21070de974b9ff019ac20f98ecd7",
+      "midiFormat": 0,
+      "tracks": 1,
+      "division": 48,
+      "events": 6786,
+      "noteOn": 3354,
+      "endOfTrackCount": 1,
+      "lastTick": 7302,
+      "firstTempoMicroseconds": 499968
+    },
+    {
+      "id": 5,
+      "file": "../audio/music/mlk-005.mid",
+      "source": "Dat/MysticA.mlk",
+      "sourceOffset": 111369,
+      "bytes": 10400,
+      "sourceFlag": 1,
+      "sha256": "4d16298b1edd1402042023a5432d14720b1bd2b25970b2efeef95174d58d00bb",
+      "midiFormat": 0,
+      "tracks": 1,
+      "division": 48,
+      "events": 2347,
+      "noteOn": 756,
+      "endOfTrackCount": 1,
+      "lastTick": 3072,
+      "firstTempoMicroseconds": 499968
+    }
+  ],
+  "scripts": [
+    {
+      "source": "seq/apple.sq",
+      "file": "scripts/apple.sq",
+      "byteLength": 8373,
+      "sha256": "8201023481ba7ccd51e561078df4634226e29c10e7dbfaf2b25fed0bb606b8e8",
+      "headerBytes": 348,
+      "count": 87,
+      "offsets": [
+        348,
+        348,
+        456,
+        524,
+        564,
+        776,
+        844,
+        884,
+        888,
+        2036,
+        2104,
+        2144,
+        2148,
+        3356,
+        3420,
+        3460,
+        3536,
+        3620,
+        3712,
+        3776,
+        3820,
+        3896,
+        3988,
+        4020,
+        4156,
+        4164,
+        4204,
+        4280,
+        4288,
+        4336,
+        4384,
+        4432,
+        4480,
+        4544,
+        4604,
+        4664,
+        4724,
+        4796,
+        4864,
+        4932,
+        5000,
+        5068,
+        5108,
+        5136,
+        5180,
+        5212,
+        5252,
+        5260,
+        5292,
+        5412,
+        5444,
+        5544,
+        5636,
+        5732,
+        5844,
+        5956,
+        6092,
+        6188,
+        6256,
+        6368,
+        6568,
+        6640,
+        6664,
+        6776,
+        6896,
+        6916,
+        6992,
+        7052,
+        7100,
+        7148,
+        7188,
+        7244,
+        7256,
+        7516,
+        7564,
+        7612,
+        7660,
+        7680,
+        7688,
+        7788,
+        7800,
+        7856,
+        7948,
+        8032,
+        8088,
+        8128,
+        8280
+      ],
+      "sections": [
+        {
+          "id": 0,
+          "offset": 348,
+          "length": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "id": 1,
+          "offset": 348,
+          "length": 108,
+          "sha256": "08368b73cf61aa0fa39019dc487813bddbd89ff7ca3d6561b87e97951e914e9d"
+        },
+        {
+          "id": 2,
+          "offset": 456,
+          "length": 68,
+          "sha256": "6c7b482b1e7de64c4289b06e7492bacfecbc91b8b3d378b1f11cb1449cee3fc3"
+        },
+        {
+          "id": 3,
+          "offset": 524,
+          "length": 40,
+          "sha256": "1ac97b40d2fa2de005188ba55ffe80ecac8d0a03afb88aec49edb14e2a8b25b3"
+        },
+        {
+          "id": 4,
+          "offset": 564,
+          "length": 212,
+          "sha256": "82982ecbf74713d36eefc0ce4c560af0d1dda7b23f43171099aacef2d1a078b5"
+        },
+        {
+          "id": 5,
+          "offset": 776,
+          "length": 68,
+          "sha256": "0301e32b84f0986ccc3cf7c980526ec72a304aaac29b1dd34bd7a6afa74ac35e"
+        },
+        {
+          "id": 6,
+          "offset": 844,
+          "length": 40,
+          "sha256": "e9dc3cd212aede40beb6ddd7e2605c9b7c165ad1ab15cbeca0580948e3faa77f"
+        },
+        {
+          "id": 7,
+          "offset": 884,
+          "length": 4,
+          "sha256": "a3c729545fc089b247cca2d8e9e893f0b22a53c91af9934eaa8973172c308763"
+        },
+        {
+          "id": 8,
+          "offset": 888,
+          "length": 1148,
+          "sha256": "378f3a829a2431e83dedaa360c0d4f916bb2b5a1e9c308aa66ff03f0155132d9"
+        },
+        {
+          "id": 9,
+          "offset": 2036,
+          "length": 68,
+          "sha256": "afeb91b331e7acd90e07e294417c3793a097034ea4d96c5b7bd0021ecd9f6eb4"
+        },
+        {
+          "id": 10,
+          "offset": 2104,
+          "length": 40,
+          "sha256": "7a8ed96b5f0a0024a30f05f74c642181de4929f9bf7e40ae6fc507b7cf040501"
+        },
+        {
+          "id": 11,
+          "offset": 2144,
+          "length": 4,
+          "sha256": "a3c729545fc089b247cca2d8e9e893f0b22a53c91af9934eaa8973172c308763"
+        },
+        {
+          "id": 12,
+          "offset": 2148,
+          "length": 1208,
+          "sha256": "dd35d72e163613285c5fc147c2147107f08a3b36c38a350046209f5192039780"
+        },
+        {
+          "id": 13,
+          "offset": 3356,
+          "length": 64,
+          "sha256": "9405c84730132012d5c2f5a4a5bacca6410960272c647aafab834cd18703f4ea"
+        },
+        {
+          "id": 14,
+          "offset": 3420,
+          "length": 40,
+          "sha256": "8eac5f05c3d51e79e1523e295bd7da36752b4a68c370962290129ad2999754ea"
+        },
+        {
+          "id": 15,
+          "offset": 3460,
+          "length": 76,
+          "sha256": "c3482e8c50fbd7c5cbcb0508263432e76cb991481073c66b11d4d6ca55397322"
+        },
+        {
+          "id": 16,
+          "offset": 3536,
+          "length": 84,
+          "sha256": "aefe73eebf0fd973e1ddcaed606796fe7d63dab642648a214323d26dc875018b"
+        },
+        {
+          "id": 17,
+          "offset": 3620,
+          "length": 92,
+          "sha256": "49faa17e7542eafb30e65826f79622ee7667bda20c9fee3991e40585d170cfca"
+        },
+        {
+          "id": 18,
+          "offset": 3712,
+          "length": 64,
+          "sha256": "b00792652c117fe899233b026e2f8564f9ed08e1b008e3dfb8bdb7f6303363c1"
+        },
+        {
+          "id": 19,
+          "offset": 3776,
+          "length": 44,
+          "sha256": "3f4d8817aaf16e0005023901693f23d1bdd2215ffcecfd9d3c946b5dd6f1299f"
+        },
+        {
+          "id": 20,
+          "offset": 3820,
+          "length": 76,
+          "sha256": "9190ecd6212fe4036bd30639af07b76ef4537d38b388702154818c5bd91f344f"
+        },
+        {
+          "id": 21,
+          "offset": 3896,
+          "length": 92,
+          "sha256": "9cb57f7bea5a8e1310a0d60ff925715097ef0865bdf36bb5425bd6220596a192"
+        },
+        {
+          "id": 22,
+          "offset": 3988,
+          "length": 32,
+          "sha256": "09e8089e479bb42e9c0f94eb72c67c7c4f1603acbd0a24e4073a0882d86093df"
+        },
+        {
+          "id": 23,
+          "offset": 4020,
+          "length": 136,
+          "sha256": "007a538680a8dd17d5156a9e8dd78f0686c397883337f8c4462838e1a7ae2dae"
+        },
+        {
+          "id": 24,
+          "offset": 4156,
+          "length": 8,
+          "sha256": "c803afda15fb6e62c3d2b5fde4ea7d63913be8fa91ea55242d3d4ba2153d081d"
+        },
+        {
+          "id": 25,
+          "offset": 4164,
+          "length": 40,
+          "sha256": "064744fc3c61930ef18e1f33bc0b3cb9dfc6453215782be06dee590e613b824f"
+        },
+        {
+          "id": 26,
+          "offset": 4204,
+          "length": 76,
+          "sha256": "e7e545b2feca843afd85f55daaedfefa7a4cf34f00628ac0f753a87f7635154e"
+        },
+        {
+          "id": 27,
+          "offset": 4280,
+          "length": 8,
+          "sha256": "84e12dc136f7e3688f5d93c9a8da2037ba13e44262f27e6ab2fceb9b240ac262"
+        },
+        {
+          "id": 28,
+          "offset": 4288,
+          "length": 48,
+          "sha256": "771cef11133f1031c0efd0e926c84ed3ac92d9bcbe4c5fae805b6fcd1da58f2f"
+        },
+        {
+          "id": 29,
+          "offset": 4336,
+          "length": 48,
+          "sha256": "a5cd9a110435b4eeb4c76e4c99544ec2ae0b7fe2e7154c198b08a6644bcc227f"
+        },
+        {
+          "id": 30,
+          "offset": 4384,
+          "length": 48,
+          "sha256": "b2cfa60e3487a751db65c3ce1b920479ab7c9b11f48fb831891925b696854255"
+        },
+        {
+          "id": 31,
+          "offset": 4432,
+          "length": 48,
+          "sha256": "1c4e5b80b4bd74fd36363663aebee546dcdcb3f19ed676776e5b77255010cd3a"
+        },
+        {
+          "id": 32,
+          "offset": 4480,
+          "length": 64,
+          "sha256": "5d54b340478a181b83ddf89316748b534066573191287fc4b6f3e08dccf5d9b2"
+        },
+        {
+          "id": 33,
+          "offset": 4544,
+          "length": 60,
+          "sha256": "148d1e84216beb04f7a6e882fe3c92806249b6c8f0ad293e6475441e0fab0466"
+        },
+        {
+          "id": 34,
+          "offset": 4604,
+          "length": 60,
+          "sha256": "41569539d3455c5a93b8b97f6fe292d158b35eae445388622af20ad06a61cc21"
+        },
+        {
+          "id": 35,
+          "offset": 4664,
+          "length": 60,
+          "sha256": "bc6e36b8019571531d877c1496bf66661b334d83c45562f94fddc124a6cdf6c8"
+        },
+        {
+          "id": 36,
+          "offset": 4724,
+          "length": 72,
+          "sha256": "744fc36772703ed288adc9b958e0585c88612383a6792511f80bdd50c099cadd"
+        },
+        {
+          "id": 37,
+          "offset": 4796,
+          "length": 68,
+          "sha256": "b8dcc4332522efa6f5cf4f4d720b0c7c8f47a48182e4012e25cc774d0837f853"
+        },
+        {
+          "id": 38,
+          "offset": 4864,
+          "length": 68,
+          "sha256": "2cd98fa0d68a0642e11cecf1d162abcc324345e05ada6909107f8ee832ba896a"
+        },
+        {
+          "id": 39,
+          "offset": 4932,
+          "length": 68,
+          "sha256": "5302f71b5ccc52833b075df093e9633a3ab41a3293650c2d3c122beddf475100"
+        },
+        {
+          "id": 40,
+          "offset": 5000,
+          "length": 68,
+          "sha256": "26d3f290e66265d93e4c567e7ef87151a95ae7528c61e53824a93ad270692053"
+        },
+        {
+          "id": 41,
+          "offset": 5068,
+          "length": 40,
+          "sha256": "925baad2e0804a19738acddda69686d89149ac506d6548fd8e6ae78d7c8aa0b3"
+        },
+        {
+          "id": 42,
+          "offset": 5108,
+          "length": 28,
+          "sha256": "41dafb12869a6be1ad6c499e9300556bfefc3f9efc1bd0cd0d4ee60ada19d901"
+        },
+        {
+          "id": 43,
+          "offset": 5136,
+          "length": 44,
+          "sha256": "4ae92b9c7fc4bc36dbe894423b662cf550a8139bb6019cb26e50d71ccb31d39a"
+        },
+        {
+          "id": 44,
+          "offset": 5180,
+          "length": 32,
+          "sha256": "d3fdb007f372c8c8882cd7e18e4cb1afd09876b4208c384632b5b273c125dd42"
+        },
+        {
+          "id": 45,
+          "offset": 5212,
+          "length": 40,
+          "sha256": "ef2f894275fa133e7497e6beed4cf00cdc9112fd3d508e51c4f6e008c1e3f292"
+        },
+        {
+          "id": 46,
+          "offset": 5252,
+          "length": 8,
+          "sha256": "78b1c5668773924aa9ebabbf2721456a610dfeaa454e91b68a21ac9bef9724de"
+        },
+        {
+          "id": 47,
+          "offset": 5260,
+          "length": 32,
+          "sha256": "17fd91fccf608e74e848b67a1f208dbba46349c8d2b8754757f22fca88e7d2f7"
+        },
+        {
+          "id": 48,
+          "offset": 5292,
+          "length": 120,
+          "sha256": "48fdbcd2e0da0c77461cb66a72edbd3b58b9b4a0ff5e22a1b3a19f7fe20229a7"
+        },
+        {
+          "id": 49,
+          "offset": 5412,
+          "length": 32,
+          "sha256": "574ba8aadcbcc89bc80d6a38d17285e8eee71aefad9771c0ee4691709314fd3a"
+        },
+        {
+          "id": 50,
+          "offset": 5444,
+          "length": 100,
+          "sha256": "d3489ff6a551ecb8d65561bf973ad9485ea15023b4538db03224e419f9c67a07"
+        },
+        {
+          "id": 51,
+          "offset": 5544,
+          "length": 92,
+          "sha256": "d4afb340efd72be4d4349c0d5c5da611d5b1d36df74f8632092ab477b60fdadb"
+        },
+        {
+          "id": 52,
+          "offset": 5636,
+          "length": 96,
+          "sha256": "d901554f2b3f7dd1779aa3b3e3cb4d42479d9728c1af69d994a6c6a98d950e93"
+        },
+        {
+          "id": 53,
+          "offset": 5732,
+          "length": 112,
+          "sha256": "38e2e5eadc53a8f86bf4a1d0f997f0cd76f3698ebc3745313e6c93d838113f12"
+        },
+        {
+          "id": 54,
+          "offset": 5844,
+          "length": 112,
+          "sha256": "ccd940521e3d6f3845559b035b9f6c48fde59712fbaed08a1287d49c49700cc9"
+        },
+        {
+          "id": 55,
+          "offset": 5956,
+          "length": 136,
+          "sha256": "ed010a11521fcb7641509f3481ab87fcf21c10cce192a0fa359fb23a43dbf147"
+        },
+        {
+          "id": 56,
+          "offset": 6092,
+          "length": 96,
+          "sha256": "4309ec1949a8a8d8ad037a3ef554edccb7e5f75865b989caa215e1464b2ad6a1"
+        },
+        {
+          "id": 57,
+          "offset": 6188,
+          "length": 68,
+          "sha256": "687024ae21bedb8d6517fd83b87899e28520b635b92625fb6908b7ec5bae26af"
+        },
+        {
+          "id": 58,
+          "offset": 6256,
+          "length": 112,
+          "sha256": "8b9ac58b81cab3df4c189be51dd68b952f8b4d0ca0a8a34d3100857da004c434"
+        },
+        {
+          "id": 59,
+          "offset": 6368,
+          "length": 200,
+          "sha256": "0d185e9875d10e3ecbfa6373ad31d3fc7804d0121a9778f29a4b6630f1f4a6c0"
+        },
+        {
+          "id": 60,
+          "offset": 6568,
+          "length": 72,
+          "sha256": "d3fc79ab92847e4bc22b88a332e0ae50367b2dc53362f3daed599b9e6579ce5f"
+        },
+        {
+          "id": 61,
+          "offset": 6640,
+          "length": 24,
+          "sha256": "ae62f552297b689b1fa0e7046530a710987247770d39fadd28201754699c2f3f"
+        },
+        {
+          "id": 62,
+          "offset": 6664,
+          "length": 112,
+          "sha256": "9a621a3fd5283864e27dfec75aed3823676e6f5816e251f84ce510f575ef40f9"
+        },
+        {
+          "id": 63,
+          "offset": 6776,
+          "length": 120,
+          "sha256": "5d2799a52cd9fab3277eae81130814787429e87a42ffdaeae0d465dd25968803"
+        },
+        {
+          "id": 64,
+          "offset": 6896,
+          "length": 20,
+          "sha256": "00920607bc636b8927f2cab4a63dd9f56ecc36739f62026950d73bca96ce6c37"
+        },
+        {
+          "id": 65,
+          "offset": 6916,
+          "length": 76,
+          "sha256": "57c5dc2be226cdce615a915092785dc7154f59a95ad00890d85828fc741163bd"
+        },
+        {
+          "id": 66,
+          "offset": 6992,
+          "length": 60,
+          "sha256": "7270de4f715b4d4716143bcd1761bf6c530e09cf20f483f0a718241aeab02821"
+        },
+        {
+          "id": 67,
+          "offset": 7052,
+          "length": 48,
+          "sha256": "fcce3fadf8eb6ff56c464e7c9191350a3b90328847b150817f7d2727c52f3514"
+        },
+        {
+          "id": 68,
+          "offset": 7100,
+          "length": 48,
+          "sha256": "db8fcafbfe8957b2ec9ab98e2444a22034833efc34b6be9f5a0e4eddcbb49fdc"
+        },
+        {
+          "id": 69,
+          "offset": 7148,
+          "length": 40,
+          "sha256": "a3d84abc73c2e0ec95ba500b5e64958facca795d108e54e01952cde6b80124c6"
+        },
+        {
+          "id": 70,
+          "offset": 7188,
+          "length": 56,
+          "sha256": "6a572332e5d4e03fe629937c9f897c4caed48489bc038ac1f8d9e4da5767ff63"
+        },
+        {
+          "id": 71,
+          "offset": 7244,
+          "length": 12,
+          "sha256": "865cc5076ef3d0275ee0e82bffb215b72cac6f32c38eeab3edbde1e5dd330774"
+        },
+        {
+          "id": 72,
+          "offset": 7256,
+          "length": 260,
+          "sha256": "df2f3cc008173024b42c3d85b510a5d0108c2641f190713ad09e131628b71721"
+        },
+        {
+          "id": 73,
+          "offset": 7516,
+          "length": 48,
+          "sha256": "290400d95d67956fc17066e28daf09293c3200252f3b8a269e63e1299bd8b31d"
+        },
+        {
+          "id": 74,
+          "offset": 7564,
+          "length": 48,
+          "sha256": "038e2283b39dd364bbb8b87359f66df805e0d9d1e34b0b9b8681419d6f5e6b11"
+        },
+        {
+          "id": 75,
+          "offset": 7612,
+          "length": 48,
+          "sha256": "c0d1c0e4bc443959dcc4749ae50e4b735ab4d65ba3cc3d0e9c9df67fbef3d931"
+        },
+        {
+          "id": 76,
+          "offset": 7660,
+          "length": 20,
+          "sha256": "5b43dc4776185459a22e89e0d8247f9f59bb50757a20dcacbc6bf42be3107e74"
+        },
+        {
+          "id": 77,
+          "offset": 7680,
+          "length": 8,
+          "sha256": "922f04653a0f8964a1f2267aef35b5149e81872db1fccb51a44898296e5a61ff"
+        },
+        {
+          "id": 78,
+          "offset": 7688,
+          "length": 100,
+          "sha256": "47f33f465211eb4a08916103a5aec262468fe26122129e38d221f763dee826f8"
+        },
+        {
+          "id": 79,
+          "offset": 7788,
+          "length": 12,
+          "sha256": "b220a224949dfb34b7fcd753141b108081d8c1a3ee447fe708c18de27c94f3c3"
+        },
+        {
+          "id": 80,
+          "offset": 7800,
+          "length": 56,
+          "sha256": "42d75807e96db8943c68f000847ca5ae0f7f28c569871c8ee15de37443d1264a"
+        },
+        {
+          "id": 81,
+          "offset": 7856,
+          "length": 92,
+          "sha256": "6cd3c7cfca0cdbe048da37ec4138b4e94ea7ca8210cb83084ebdc5c94c2743cc"
+        },
+        {
+          "id": 82,
+          "offset": 7948,
+          "length": 84,
+          "sha256": "589efcdd63f7afc3e37d76440466add7a2a20641ba0bc4a53064ff472adb7375"
+        },
+        {
+          "id": 83,
+          "offset": 8032,
+          "length": 56,
+          "sha256": "42d75807e96db8943c68f000847ca5ae0f7f28c569871c8ee15de37443d1264a"
+        },
+        {
+          "id": 84,
+          "offset": 8088,
+          "length": 40,
+          "sha256": "ee554c746eb79f6d82d42713ae6aceec5160ffaa0e26f29156406be3cc794bab"
+        },
+        {
+          "id": 85,
+          "offset": 8128,
+          "length": 152,
+          "sha256": "60782faed2a1f2d42124851b649f7873fda36384f4a159b2d7521a9be068546a"
+        },
+        {
+          "id": 86,
+          "offset": 8280,
+          "length": 93,
+          "sha256": "19c236d1c406671f65b662dd5fd6a821df826b17f8b209a71c1e9dac0d36577c"
+        }
+      ]
+    },
+    {
+      "source": "seq/graph.sq",
+      "file": "scripts/graph.sq",
+      "byteLength": 1032,
+      "sha256": "bf5741e154db3a8533eb95f283c8c7a0b1156e13dc78416694d6eebbb2d149c5",
+      "headerBytes": 76,
+      "count": 19,
+      "offsets": [
+        76,
+        76,
+        268,
+        312,
+        376,
+        440,
+        896,
+        907,
+        915,
+        925,
+        934,
+        946,
+        958,
+        969,
+        977,
+        986,
+        999,
+        1007,
+        1019
+      ],
+      "sections": [
+        {
+          "id": 0,
+          "offset": 76,
+          "length": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "id": 1,
+          "offset": 76,
+          "length": 192,
+          "sha256": "e940ff6341a6543c75c1413ce667de58c88aec60415a4b5c41b4024fb255bd30"
+        },
+        {
+          "id": 2,
+          "offset": 268,
+          "length": 44,
+          "sha256": "ae12ab6b3a2afc226cc1f2fa8b5f15e5fb5fea2c60ade738c34d8ff4b84b9822"
+        },
+        {
+          "id": 3,
+          "offset": 312,
+          "length": 64,
+          "sha256": "63c0043e04a1d4914d2ddb0e8f107d7884aa17425be016f5716dc32e72cad6f8"
+        },
+        {
+          "id": 4,
+          "offset": 376,
+          "length": 64,
+          "sha256": "21ac00011279743a58e9082844835a6c6b0a4e753062848ae6ff0268b3f04557"
+        },
+        {
+          "id": 5,
+          "offset": 440,
+          "length": 456,
+          "sha256": "220cc86a89ff8b4360d4d760b987791599b41af10c41e6e6c5566d7da260c5c5"
+        },
+        {
+          "id": 6,
+          "offset": 896,
+          "length": 11,
+          "sha256": "7a522ff54bffe98baeb09d372d552801ceada5755742782162af34f616c0c1c0",
+          "asciiZ": "mainbg.cnx"
+        },
+        {
+          "id": 7,
+          "offset": 907,
+          "length": 8,
+          "sha256": "3ce8afa88661f6eaa68c016876e8216df6585ea0c481289fcbd721d48858e852",
+          "asciiZ": "cur.cnx"
+        },
+        {
+          "id": 8,
+          "offset": 915,
+          "length": 10,
+          "sha256": "40de7e7e6a8062f77ca33cff8eaba10bc711db0e703faaa2f13f4f78ce71ab4d",
+          "asciiZ": "m_frm.cnx"
+        },
+        {
+          "id": 9,
+          "offset": 925,
+          "length": 9,
+          "sha256": "d0cabcb0255208e5a3f8eedb5a91557d76666faef3d48b30d58ec31b2444d47e",
+          "asciiZ": "mado.cnx"
+        },
+        {
+          "id": 10,
+          "offset": 934,
+          "length": 12,
+          "sha256": "3038f3bdd158875f1f0222f8c68e6f9d6ba05d44b288625279a7ebdedfdaf077",
+          "asciiZ": "tuika_2.cnx"
+        },
+        {
+          "id": 11,
+          "offset": 946,
+          "length": 12,
+          "sha256": "131bcd8edeb6b81b1f03ca460b47c4a6b9563bfc86eb7b66b30ff57229749af1",
+          "asciiZ": "taskbar.cnx"
+        },
+        {
+          "id": 12,
+          "offset": 958,
+          "length": 11,
+          "sha256": "6511c68e8ba5d03f8a90226e5ff9b99ea9ba78c3715cc910fd5c8f51673c6b01",
+          "asciiZ": "ware_1.cnx"
+        },
+        {
+          "id": 13,
+          "offset": 969,
+          "length": 8,
+          "sha256": "e727d2f6bf695317994590a7da0cbb460d8945869184df8bbce796951e4577c4",
+          "asciiZ": "bil.cnx"
+        },
+        {
+          "id": 14,
+          "offset": 977,
+          "length": 9,
+          "sha256": "58f444d54c7730743b84143b4ca01ce53a4e5584eefb7b7bfd649654fa27138f",
+          "asciiZ": "bil2.cnx"
+        },
+        {
+          "id": 15,
+          "offset": 986,
+          "length": 13,
+          "sha256": "2ff77d0788d0a918ae3b7825f63bc005eabaa89acf27468c6c21e4da8a2e67f1",
+          "asciiZ": "bakuhatu.cnx"
+        },
+        {
+          "id": 16,
+          "offset": 999,
+          "length": 8,
+          "sha256": "8848bd3db339256af231b75d3816a52cf280f2fcf3f2a4bbf8a58a4d3e4b4762",
+          "asciiZ": "ufo.cnx"
+        },
+        {
+          "id": 17,
+          "offset": 1007,
+          "length": 12,
+          "sha256": "0a52090ae29ebaac72cdbff7220b3f980b035278e7643e018a74153eb43ef1bd",
+          "asciiZ": "adjfree.cnx"
+        },
+        {
+          "id": 18,
+          "offset": 1019,
+          "length": 13,
+          "sha256": "c3ad4cac982249390e7928dca8b1caada05acd12e85d5ad068bdc015e3fba608"
+        }
+      ]
+    },
+    {
+      "source": "seq/sound.sq",
+      "file": "scripts/sound.sq",
+      "byteLength": 84,
+      "sha256": "f4a3f508e955bddcc3983a281fa03590b5ea5b81cc0572e823166395aa63c415",
+      "headerBytes": 20,
+      "count": 5,
+      "offsets": [
+        20,
+        20,
+        32,
+        60,
+        72
+      ],
+      "sections": [
+        {
+          "id": 0,
+          "offset": 20,
+          "length": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "id": 1,
+          "offset": 20,
+          "length": 12,
+          "sha256": "ca4df128832928a82931f52db992dfaabb7aae38a7f1a35dbc670c8449704bb3"
+        },
+        {
+          "id": 2,
+          "offset": 32,
+          "length": 28,
+          "sha256": "4541d4020f43499da513856388d8379536eeda47f8c9d479914e9442c8b4f154"
+        },
+        {
+          "id": 3,
+          "offset": 60,
+          "length": 12,
+          "sha256": "74e7d530e50baf527ec8a359634484b3b475461379dcd1a40ebea21fa92c8292",
+          "asciiZ": "pcmdata.wlk"
+        },
+        {
+          "id": 4,
+          "offset": 72,
+          "length": 12,
+          "sha256": "690561b5b474455233a3da902430299b722e0a72b32324ae99ebf9c2252d7afe"
+        }
+      ]
+    },
+    {
+      "source": "seq/startup.sq",
+      "file": "scripts/startup.sq",
+      "byteLength": 732,
+      "sha256": "7180916a17a172464464adc9e329eff7ce820222b7f75c243707d31a1ecc734e",
+      "headerBytes": 64,
+      "count": 16,
+      "offsets": [
+        64,
+        232,
+        256,
+        272,
+        392,
+        484,
+        536,
+        564,
+        604,
+        620,
+        648,
+        688,
+        696,
+        705,
+        714,
+        723
+      ],
+      "sections": [
+        {
+          "id": 0,
+          "offset": 64,
+          "length": 168,
+          "sha256": "a2095dec8ab7fb8bad42330991eb338727106eceae694ab4ac020e1776335c00"
+        },
+        {
+          "id": 1,
+          "offset": 232,
+          "length": 24,
+          "sha256": "e16d6d52e102309d65d6ea148a679a02b988ff129cebb190f54b161d33ca333f"
+        },
+        {
+          "id": 2,
+          "offset": 256,
+          "length": 16,
+          "sha256": "b05aa1c099b2a0a95aaefa759418bd7a903d27707e0313cf51d9f79567b0640f"
+        },
+        {
+          "id": 3,
+          "offset": 272,
+          "length": 120,
+          "sha256": "9e2351748e2395fed63c9c9bb4d7a089c8054e4e39a451a12e8f543ba80e778d"
+        },
+        {
+          "id": 4,
+          "offset": 392,
+          "length": 92,
+          "sha256": "c2383171a68e58b8d562fc26718ba21b81bf5dd3771ebfb52c7b52e6dd5db8f6"
+        },
+        {
+          "id": 5,
+          "offset": 484,
+          "length": 52,
+          "sha256": "499788709b76351a2459188eacea2d39cbd9beab37114dd91ffc669d722f25c5"
+        },
+        {
+          "id": 6,
+          "offset": 536,
+          "length": 28,
+          "sha256": "9d4d3115a152c6efd43d2206220437192649bc7b0f72551357e5b268356d9506"
+        },
+        {
+          "id": 7,
+          "offset": 564,
+          "length": 40,
+          "sha256": "8ed91f434861b3c6addc2798bcb7fe47bc4bb6e1947bf3e3fe36c09913a2cc16"
+        },
+        {
+          "id": 8,
+          "offset": 604,
+          "length": 16,
+          "sha256": "67bf64996f2ac7356fe412e87aa122e061541390f4f18b07ae549b3809c536c3"
+        },
+        {
+          "id": 9,
+          "offset": 620,
+          "length": 28,
+          "sha256": "e3e1695c315e4137abe7a3694c9c70a16814d1c8a888198fd75883e9012d2e6b"
+        },
+        {
+          "id": 10,
+          "offset": 648,
+          "length": 40,
+          "sha256": "7a8ed96b5f0a0024a30f05f74c642181de4929f9bf7e40ae6fc507b7cf040501"
+        },
+        {
+          "id": 11,
+          "offset": 688,
+          "length": 8,
+          "sha256": "2906bc67a431164efed41fedddf1f63d4febb6dd2d10f320526e4ed7325fdd65"
+        },
+        {
+          "id": 12,
+          "offset": 696,
+          "length": 9,
+          "sha256": "698cecc5503b784d13933a7bbf407183052ad92ec55dc0d1cd07a2ed553a291b",
+          "asciiZ": "apple.sq"
+        },
+        {
+          "id": 13,
+          "offset": 705,
+          "length": 9,
+          "sha256": "61446580e3b882f3db203de491a265c630f607f46d275232f8d0126cb9afb334",
+          "asciiZ": "graph.sq"
+        },
+        {
+          "id": 14,
+          "offset": 714,
+          "length": 9,
+          "sha256": "506b06df93acc28dac49851a71a3003c4504e2011e9d9d14a05a631570ac2e6b",
+          "asciiZ": "sound.sq"
+        },
+        {
+          "id": 15,
+          "offset": 723,
+          "length": 9,
+          "sha256": "7d2b4161764032b2a4ab5a3258e8dbf6a4ebbcd85888a5a51af14fca6a310eea"
+        }
+      ]
+    },
+    {
+      "source": "seq/en/mess.sq",
+      "file": "scripts/en/mess.sq",
+      "byteLength": 553,
+      "sha256": "848c30089c9de7f543827b2a6970aaecc8b83150be3b69dc159a8e5bf09a5766",
+      "headerBytes": 48,
+      "count": 12,
+      "offsets": [
+        48,
+        48,
+        80,
+        232,
+        236,
+        240,
+        244,
+        256,
+        348,
+        388,
+        392,
+        420
+      ],
+      "sections": [
+        {
+          "id": 0,
+          "offset": 48,
+          "length": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "id": 1,
+          "offset": 48,
+          "length": 32,
+          "sha256": "7f5dcb2af89af99aa3ab7dc8c357f59b99132dd7c61cc92a6d6d113cd02787cb"
+        },
+        {
+          "id": 2,
+          "offset": 80,
+          "length": 152,
+          "sha256": "4f2b163f0d618dbd462515601553f7b7d25bbf3f354e055fed21cea156a69a4d"
+        },
+        {
+          "id": 3,
+          "offset": 232,
+          "length": 4,
+          "sha256": "4522544d715d3fa246894264b7faabc76b8e92dd82c4629b73a00816e4536d1a"
+        },
+        {
+          "id": 4,
+          "offset": 236,
+          "length": 4,
+          "sha256": "cb30e91817239109ffd0a5870046e128f04619da80c7624d921162fdfe514f76"
+        },
+        {
+          "id": 5,
+          "offset": 240,
+          "length": 4,
+          "sha256": "9521019b40e230beec168b3ccf8d445b0675509b3df9a404c4a0ebc437a02200"
+        },
+        {
+          "id": 6,
+          "offset": 244,
+          "length": 12,
+          "sha256": "591378303d6923f0178ad2b1c1e40afa987f2cf6ff7f5b7fbd5e039a0e3c6292"
+        },
+        {
+          "id": 7,
+          "offset": 256,
+          "length": 92,
+          "sha256": "2450e8a8bb77978eaa9e8bd1433d538dc32175be418d38309ceee5cf287c4567"
+        },
+        {
+          "id": 8,
+          "offset": 348,
+          "length": 40,
+          "sha256": "b1f5ba27905ad2e33f7ea8861308edbd6e7978a8b31f0acc3cdd9c15c094bbc3"
+        },
+        {
+          "id": 9,
+          "offset": 388,
+          "length": 4,
+          "sha256": "097328e8c957de2428283954f6a1ee8ff7ad7def12e100a600178407f5decf24"
+        },
+        {
+          "id": 10,
+          "offset": 392,
+          "length": 28,
+          "sha256": "62387211e82166485587ccc6d8296c92a6f92cf3e15c1460d902ba282261e4d7"
+        },
+        {
+          "id": 11,
+          "offset": 420,
+          "length": 133,
+          "sha256": "e3e53ced98e6fd36afb6849a1cd0d158b23b561ac2374b69cd633a69637625dc"
+        }
+      ]
+    },
+    {
+      "source": "seq/jp/mess.sq",
+      "file": "scripts/jp/mess.sq",
+      "byteLength": 625,
+      "sha256": "1b7d2da57502dea7799bb9c2f56b0dffb064ba4de10f2002958c32ef1d34678b",
+      "headerBytes": 52,
+      "count": 13,
+      "offsets": [
+        52,
+        52,
+        54,
+        146,
+        298,
+        304,
+        308,
+        312,
+        324,
+        416,
+        456,
+        460,
+        488
+      ],
+      "sections": [
+        {
+          "id": 0,
+          "offset": 52,
+          "length": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "id": 1,
+          "offset": 52,
+          "length": 2,
+          "sha256": "99be5efb88ca2013bd8e4eb035fd42d5245468fe9afa70d8ba9c1c419a48c4e8"
+        },
+        {
+          "id": 2,
+          "offset": 54,
+          "length": 92,
+          "sha256": "dfec477ebda047ce1835b602b03b6074abe8f3e2f31b17276686879c96328bce"
+        },
+        {
+          "id": 3,
+          "offset": 146,
+          "length": 152,
+          "sha256": "e800ad0552ed7c034a0e69673580dec3c11c362d356fcbf504f2e589574ac669"
+        },
+        {
+          "id": 4,
+          "offset": 298,
+          "length": 6,
+          "sha256": "c92c9f6fd9960bcb11dea0ecffa43bb476832947fb3edb745bb9f4e593ecf544"
+        },
+        {
+          "id": 5,
+          "offset": 304,
+          "length": 4,
+          "sha256": "42f4aeb81c1ef81f771f3de8abca9dcf66901c575530e7672e4b1146474ae650"
+        },
+        {
+          "id": 6,
+          "offset": 308,
+          "length": 4,
+          "sha256": "9521019b40e230beec168b3ccf8d445b0675509b3df9a404c4a0ebc437a02200"
+        },
+        {
+          "id": 7,
+          "offset": 312,
+          "length": 12,
+          "sha256": "ae4770bf1adbfe83c23004c46ac079315ff58b7e7b10bd3c0a47471e9ae231ec"
+        },
+        {
+          "id": 8,
+          "offset": 324,
+          "length": 92,
+          "sha256": "2450e8a8bb77978eaa9e8bd1433d538dc32175be418d38309ceee5cf287c4567"
+        },
+        {
+          "id": 9,
+          "offset": 416,
+          "length": 40,
+          "sha256": "b03c39c216b6a6403c4e59a6be6f8cc5034fe583ebfac1afa01384b6aee3953c"
+        },
+        {
+          "id": 10,
+          "offset": 456,
+          "length": 4,
+          "sha256": "097328e8c957de2428283954f6a1ee8ff7ad7def12e100a600178407f5decf24"
+        },
+        {
+          "id": 11,
+          "offset": 460,
+          "length": 28,
+          "sha256": "62387211e82166485587ccc6d8296c92a6f92cf3e15c1460d902ba282261e4d7"
+        },
+        {
+          "id": 12,
+          "offset": 488,
+          "length": 137,
+          "sha256": "d47becd9588d5d6d329461411397444855a16eee9447ec7991a5de8397d4d24a"
+        }
+      ]
+    },
+    {
+      "source": "seq/kr/mess.sq",
+      "file": "scripts/kr/mess.sq",
+      "byteLength": 625,
+      "sha256": "1b7d2da57502dea7799bb9c2f56b0dffb064ba4de10f2002958c32ef1d34678b",
+      "headerBytes": 52,
+      "count": 13,
+      "offsets": [
+        52,
+        52,
+        54,
+        146,
+        298,
+        304,
+        308,
+        312,
+        324,
+        416,
+        456,
+        460,
+        488
+      ],
+      "sections": [
+        {
+          "id": 0,
+          "offset": 52,
+          "length": 0,
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+        },
+        {
+          "id": 1,
+          "offset": 52,
+          "length": 2,
+          "sha256": "99be5efb88ca2013bd8e4eb035fd42d5245468fe9afa70d8ba9c1c419a48c4e8"
+        },
+        {
+          "id": 2,
+          "offset": 54,
+          "length": 92,
+          "sha256": "dfec477ebda047ce1835b602b03b6074abe8f3e2f31b17276686879c96328bce"
+        },
+        {
+          "id": 3,
+          "offset": 146,
+          "length": 152,
+          "sha256": "e800ad0552ed7c034a0e69673580dec3c11c362d356fcbf504f2e589574ac669"
+        },
+        {
+          "id": 4,
+          "offset": 298,
+          "length": 6,
+          "sha256": "c92c9f6fd9960bcb11dea0ecffa43bb476832947fb3edb745bb9f4e593ecf544"
+        },
+        {
+          "id": 5,
+          "offset": 304,
+          "length": 4,
+          "sha256": "42f4aeb81c1ef81f771f3de8abca9dcf66901c575530e7672e4b1146474ae650"
+        },
+        {
+          "id": 6,
+          "offset": 308,
+          "length": 4,
+          "sha256": "9521019b40e230beec168b3ccf8d445b0675509b3df9a404c4a0ebc437a02200"
+        },
+        {
+          "id": 7,
+          "offset": 312,
+          "length": 12,
+          "sha256": "ae4770bf1adbfe83c23004c46ac079315ff58b7e7b10bd3c0a47471e9ae231ec"
+        },
+        {
+          "id": 8,
+          "offset": 324,
+          "length": 92,
+          "sha256": "2450e8a8bb77978eaa9e8bd1433d538dc32175be418d38309ceee5cf287c4567"
+        },
+        {
+          "id": 9,
+          "offset": 416,
+          "length": 40,
+          "sha256": "b03c39c216b6a6403c4e59a6be6f8cc5034fe583ebfac1afa01384b6aee3953c"
+        },
+        {
+          "id": 10,
+          "offset": 456,
+          "length": 4,
+          "sha256": "097328e8c957de2428283954f6a1ee8ff7ad7def12e100a600178407f5decf24"
+        },
+        {
+          "id": 11,
+          "offset": 460,
+          "length": 28,
+          "sha256": "62387211e82166485587ccc6d8296c92a6f92cf3e15c1460d902ba282261e4d7"
+        },
+        {
+          "id": 12,
+          "offset": 488,
+          "length": 137,
+          "sha256": "d47becd9588d5d6d329461411397444855a16eee9447ec7991a5de8397d4d24a"
+        }
+      ]
+    }
+  ],
+  "unindexed": [
+    {
+      "source": "Dat/MysticA.mlk",
+      "sourceOffset": 121769,
+      "length": 1699,
+      "sha256": "67f06c3b861f38ca6d5b361e63e04f38ca52c9ac3d77a00f2606b1232b280426",
+      "file": "unindexed/MysticA.mlk.tail.bin"
+    }
+  ],
+  "wlk": {
+    "signature": "WLKF0200",
+    "count": 35,
+    "extraHeaderWord": 3,
+    "recordSize": 34,
+    "tableEnd": 1202,
+    "audioEnd": 1034616,
+    "namesRange": [
+      1034616,
+      478
+    ],
+    "pathsRange": [
+      1035094,
+      1369
+    ],
+    "rawFile": "original/MysticA.wlk"
+  },
+  "mlk": {
+    "entryCount": 6,
+    "headerBytes": 55,
+    "rawFile": "original/MysticA.mlk",
+    "indexedEnd": 121769,
+    "trailingBytes": 1699
+  }
+}

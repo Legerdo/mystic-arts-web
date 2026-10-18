@@ -1,0 +1,40 @@
+:root{color-scheme:dark;--bg:#0b100f;--panel:#141c19;--line:#354639;--ink:#e7e9de;--muted:#a4b4a8;--gold:#dfc182;--green:#315340;font-family:system-ui,sans-serif;font-size:14px}
+*{box-sizing:border-box}html,body{margin:0;width:100%;height:100%;overflow:hidden}body{background:var(--bg);color:var(--ink)}
+#app{height:100vh;height:100dvh;width:100%;display:grid;grid-template-rows:auto auto minmax(0,1fr) auto;padding:clamp(4px,1vw,14px);gap:8px;overflow:hidden}
+header,nav,.actions,.tabs,.guide-head,.pager{display:flex;align-items:center;gap:8px;min-width:0}header,nav{justify-content:space-between}h1{font-size:20px;color:var(--gold);margin:0;white-space:nowrap;letter-spacing:.04em}button,label{font:inherit;white-space:nowrap}button{cursor:pointer;background:#1b2a22;color:var(--ink);border:1px solid var(--line);border-radius:4px;padding:6px 11px;min-height:32px}button:hover{background:var(--green)}button:focus-visible,#game:focus-visible{outline:2px solid var(--gold);outline-offset:-2px}button[aria-pressed=true]{background:var(--green);border-color:#7f9c7c}button:disabled{opacity:.45;cursor:default}label{display:flex;align-items:center;gap:3px;color:var(--muted)}a{color:#bfdac1}
+main{display:grid;grid-template-columns:clamp(200px,17vw,280px) minmax(0,1fr) clamp(220px,19vw,310px);gap:12px;min-height:0;min-width:0;overflow:hidden}
+.guide{min-height:0;min-width:0;display:flex;flex-direction:column;border:1px solid var(--line);background:var(--panel);border-radius:6px;padding:12px;overflow:hidden}.guide-head{justify-content:space-between;flex-shrink:0;margin-bottom:8px}h2{margin:0;font-size:15px;color:var(--gold)}.pager{gap:4px;font-size:11px;color:var(--muted)}.pager button{padding:0;width:25px;min-height:25px}.page{min-width:28px;text-align:center}
+.moves{flex:1;min-height:0;overflow:hidden}.moves article{padding:10px 0;border-bottom:1px solid #2c3a30}.moves article[hidden]{display:none}kbd{font:600 13px system-ui;color:#f0d9a8;overflow-wrap:anywhere}article p{margin:5px 0 0;font-size:13px;line-height:1.55;color:#c0cec2;overflow-wrap:anywhere}
+#play,#playfield{min-width:0;min-height:0;width:100%;height:100%}#playfield{display:flex;align-items:center;justify-content:center;background:#060a08;border:1px solid #233027;border-radius:5px;overflow:hidden}#game{position:relative;flex:none;background:#000;overflow:hidden}#game canvas{position:relative;display:block;width:100%!important;height:100%!important;image-rendering:pixelated;object-fit:contain}#welcome{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;flex-direction:column;color:var(--muted);text-align:center;padding:8px}#welcome span{font:600 clamp(10px,2vw,28px) Georgia,serif;letter-spacing:.12em;color:var(--gold)}#welcome p{font-size:clamp(9px,1.2vw,13px)}
+footer{display:flex;gap:12px;justify-content:space-between;min-width:0;font-size:12px;color:var(--muted);line-height:20px}footer span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;min-width:0}#fps{color:var(--gold);flex-shrink:1}
+@media(max-width:650px){#app{gap:4px;padding:4px}header{flex-wrap:wrap;gap:4px}h1{font-size:16px}.actions{gap:4px;flex:1;justify-content:flex-end}button{font-size:12px;padding:4px 7px;min-height:28px}label{font-size:11px}.tabs{gap:3px}nav{gap:4px}.guide{padding:8px}main{gap:4px}footer{font-size:10px;line-height:16px;gap:4px}}
+@media(max-height:420px){#app{gap:3px;padding:3px}h1{font-size:15px}button{min-height:25px;padding:3px 7px}.guide{padding:6px}.guide-head{margin-bottom:3px}.moves article{padding:5px 0}article p{margin-top:2px;font-size:12px;line-height:1.3}h2{font-size:13px}footer{line-height:16px;font-size:10px}}
+
+@media(max-width:420px){header h1{display:none}.actions{width:100%;justify-content:space-between;flex-wrap:wrap}}
+
+
+
+#playfield:fullscreen{width:100vw;height:100vh;border:0;border-radius:0;background:#000}#playfield::backdrop{background:#000}
+
+#app{grid-template-rows:auto minmax(0,1fr) auto}header{grid-row:1}main{grid-row:2;grid-template-areas:"basic play skills"}footer{grid-row:3;align-items:center}#basic{grid-area:basic}#play{grid-area:play}#skills{grid-area:skills}#measure{font-size:11px;min-height:23px;padding:2px 7px;flex-shrink:0}
+@media(max-width:1099px){main{grid-template-columns:minmax(0,1fr) minmax(0,2.3fr) minmax(0,1fr);gap:5px}.guide{padding:6px}.guide-head{gap:3px;flex-wrap:wrap}h2{font-size:12px}.moves article{padding:5px 0}kbd{font-size:12px}article p{font-size:12px;line-height:1.35}}
+@media(max-width:899px) and (min-height:501px){main{grid-template-areas:"play play" "basic skills";grid-template-columns:minmax(0,1fr) minmax(0,1fr);grid-template-rows:minmax(0,1.3fr) minmax(0,1fr)}}
+@media(max-width:500px) and (max-height:500px){main{grid-template-columns:minmax(0,1fr) minmax(0,1.15fr) minmax(0,1fr)}.guide{padding:4px}.guide-head h2{font-size:11px;white-space:nowrap}.pager{gap:2px}.pager button{width:20px;min-height:22px}.page{min-width:24px}.guide-head{margin-bottom:2px}}
+body[data-expanded=true] #app{grid-template-rows:auto minmax(0,1fr) 0;gap:3px;padding:3px}body[data-expanded=true] footer{display:none}body[data-expanded=true] main{grid-template:"play" 1fr / minmax(0,1fr)}body[data-expanded=true] .guide{display:none}
+
+/* Read each move as: action, keys, then the condition for using it. */
+.moves article{padding:9px 0;border-bottom:1px solid #2c3a30}
+.moves article[data-group]::before{content:attr(data-group);display:block;margin:8px 0 10px;padding-left:7px;border-left:2px solid #829e78;color:#9eb39f;font-size:11px;font-weight:600;line-height:1.5}
+.moves article:first-child[data-group]::before{margin-top:0}
+.move-row{display:flex;align-items:center;justify-content:space-between;gap:6px;flex-wrap:wrap;min-width:0}
+.moves h3{margin:0;color:var(--ink);font-size:13px;font-weight:650;line-height:1.5;overflow-wrap:anywhere}
+.command,.chord{display:inline-flex;align-items:center;gap:4px}.command{flex-wrap:wrap;max-width:100%;row-gap:5px}.chord{flex-shrink:0;white-space:nowrap}
+.move-row .command{margin-left:auto}.moves article>.command{margin-top:7px}
+.command kbd{display:inline-block;min-width:25px;padding:1px 5px;border:1px solid #51644f;border-radius:4px;background:#27362b;box-shadow:0 2px 0 #101a13;text-align:center;color:#f6dfac;font:600 14px/22px system-ui}
+.command .join,.command .then,.command .repeat{font-size:11px;color:#a8b7a7;line-height:1.4}.command .join{color:#d1d9ca}.command .then{padding:0 2px}
+.condition{color:#bcc9bb;font-size:10px;line-height:1.6;padding:1px 5px;border-radius:3px;background:#223127}.condition.energy{color:#e8ce92;background:#3a3220}
+.moves article p{margin-top:6px;font-size:12px;line-height:1.5;color:#aebeaf}.moves article p strong{color:#e0d1ae;font-weight:600}
+.moves .input-help{padding-left:8px}.input-help h3{color:#b5c7b2;font-size:12px}.input-help p{font-size:11px}.sources a{text-underline-offset:3px}
+@media(max-height:800px){.moves article{padding:6px 0}.moves article[data-group]::before{margin:5px 0 6px}.moves h3{font-size:12px}.command kbd{font-size:13px;line-height:20px;min-width:23px;padding:0 4px}.moves article>.command{margin-top:5px}.moves article p{margin-top:4px}}
+@media(max-width:1099px){.move-row{gap:4px}.command,.chord{gap:3px}.command kbd{min-width:22px;padding:0 4px;font-size:12px;line-height:20px}}
+@media(max-width:500px) and (max-height:500px){.moves article{padding:5px 0}.moves article[data-group]::before{display:none}.moves h3{font-size:11px;line-height:1.35}.move-row .command{margin-left:0}.command,.chord{gap:2px}.command{row-gap:3px}.command kbd{font-size:11px;line-height:17px;min-width:18px;padding:0 2px}.command .then,.command .join,.command .repeat{font-size:10px}.command .then{padding:0}.condition{padding:0 3px;font-size:9px}.moves article p{font-size:11px;line-height:1.3;margin-top:3px}.moves .input-help{padding-left:0}}

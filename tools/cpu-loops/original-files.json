@@ -1,0 +1,322 @@
+[
+  {
+    "path": "Mystic.exe",
+    "bytes": 914944,
+    "sha256": "285d1bb736b36ebba95e88334223f5a6851f788926961155b4e1a74f7f63296f"
+  },
+  {
+    "path": "Cnx/bone1.CNX",
+    "bytes": 42408,
+    "sha256": "7fbdd573c22c615d672ed3973ea76a9d9c2c655f4b1c818cd561a663a3e1c55a"
+  },
+  {
+    "path": "Cnx/bone2.CNX",
+    "bytes": 42597,
+    "sha256": "280a9b7dbdf24b1a4afd989760a2a4fa71e79998419a9930bf51ae2b05692661"
+  },
+  {
+    "path": "Cnx/bone3.CNX",
+    "bytes": 43136,
+    "sha256": "a31f81dc83a463a734b429cc1dda92bef0508632dbf6fe8145135aa216357269"
+  },
+  {
+    "path": "Cnx/credit.CNX",
+    "bytes": 940,
+    "sha256": "21f499f9584635e5bf565721ab628e65bc191ad35fb114e06413c5ed75d7e6dd"
+  },
+  {
+    "path": "Cnx/del.CNX",
+    "bytes": 392,
+    "sha256": "ebbd8911f8c3ceb9bcd876632bfb5138fcceb30f2b20ae8b777751a8bab510a4"
+  },
+  {
+    "path": "Cnx/dog1.CNX",
+    "bytes": 29767,
+    "sha256": "17548957cad593fe6c023927d97f871814b0ed6bd951b95f2aaf1d4c50538f47"
+  },
+  {
+    "path": "Cnx/dog2.CNX",
+    "bytes": 29717,
+    "sha256": "39d28ef8d72f715b5843a1b3d15255aa580137732890d9d18be7c73b61d23f1c"
+  },
+  {
+    "path": "Cnx/effect1.CNX",
+    "bytes": 44635,
+    "sha256": "36c06625e6449ca3efe48caff192fe9233808f7abc43c5fdafd880970ab6874d"
+  },
+  {
+    "path": "Cnx/effect2.CNX",
+    "bytes": 39294,
+    "sha256": "f79ee21e000c7246702be0797a0ef30fd66b8d7ec748697a2375b523a4ea2c27"
+  },
+  {
+    "path": "Cnx/end01.CNX",
+    "bytes": 48516,
+    "sha256": "4371e89268369062ebba0ed5500d3d4eab79adefaebab287b12a95df470b0f7d"
+  },
+  {
+    "path": "Cnx/end02.CNX",
+    "bytes": 26953,
+    "sha256": "f8032b98a13b306bd3e010269c45c998360a6f1a00f147313cc4513b12e9d195"
+  },
+  {
+    "path": "Cnx/end03.CNX",
+    "bytes": 155920,
+    "sha256": "edc3b5840e379e458e4db80a834b4887d96da6fec4b9c1b3c8db62620e632d22"
+  },
+  {
+    "path": "Cnx/end04.CNX",
+    "bytes": 63041,
+    "sha256": "bd5a4fa98a04bc84830086d18a915cffa31364193ca56ebb7263ebb8a8e8ce3a"
+  },
+  {
+    "path": "Cnx/font_1.CNX",
+    "bytes": 22640,
+    "sha256": "69b582496899b9eeafffa70d3b90ecf3cb4ffeb4c45762ba2421c3aa063d20f5"
+  },
+  {
+    "path": "Cnx/gage.CNX",
+    "bytes": 9808,
+    "sha256": "4c04255098e44f0b226e5fbee71f436d5da2df21828559cd50d8426e0ae7827b"
+  },
+  {
+    "path": "Cnx/gob1.CNX",
+    "bytes": 39160,
+    "sha256": "14015b78d4d8a58aa4a297958e37dfe424ebc569cc00325a4b637cd071b308cd"
+  },
+  {
+    "path": "Cnx/gob2.CNX",
+    "bytes": 44275,
+    "sha256": "95c387056ac6410dc1e76b49c12dab65c7040298d37159374377385c732d5aaa"
+  },
+  {
+    "path": "Cnx/gob3.CNX",
+    "bytes": 41005,
+    "sha256": "2fffe23da5f155b39c009028f5348ad34f5b765b9c5a655f442a7d3d395d45d7"
+  },
+  {
+    "path": "Cnx/gor1l.CNX",
+    "bytes": 44358,
+    "sha256": "cd7a9ca9784dbece3f2a35a1c7ddcd92a3626e24227ff70917aaa2c2f1b9d244"
+  },
+  {
+    "path": "Cnx/gor1r.CNX",
+    "bytes": 44438,
+    "sha256": "29171be668e6d28b95f73adf171d61b4c5c9b0dc16f83086ddc5ba9100f464a3"
+  },
+  {
+    "path": "Cnx/gor2l.CNX",
+    "bytes": 50990,
+    "sha256": "002906f6ce3da923b8474e57ea54cbacb929c14d10f543ef6625369834395bfb"
+  },
+  {
+    "path": "Cnx/gor2r.CNX",
+    "bytes": 50982,
+    "sha256": "e42195cb3ca46ccbca6803770d497132f7384db20d966c2d8ebe0df92a58b2b2"
+  },
+  {
+    "path": "Cnx/gor3l.CNX",
+    "bytes": 59271,
+    "sha256": "4c4e6cc24f693dc0319a8dbad9a940e3090fba3552ae3746dc4f9cc9099ea76b"
+  },
+  {
+    "path": "Cnx/gor3r.CNX",
+    "bytes": 59329,
+    "sha256": "afe7a083b4a31c2ee6137aa466fd5ee9ef9403c23873e05f16a433ffea8a8288"
+  },
+  {
+    "path": "Cnx/kumo.CNX",
+    "bytes": 12272,
+    "sha256": "a7aae3d15fca310bd53859ccd0826bd7728e35b85c0df003265ba7c90dd7b609"
+  },
+  {
+    "path": "Cnx/lavel.CNX",
+    "bytes": 4061,
+    "sha256": "066a70a65dcb6ab56565fbc601edfae39f57c37882fab2be3e32d42391f31a07"
+  },
+  {
+    "path": "Cnx/over.CNX",
+    "bytes": 18064,
+    "sha256": "20c42db2adc02901b4f34190aac6e06379c34238df5d0f62c29774cf9ec0ab38"
+  },
+  {
+    "path": "Cnx/rogo1.CNX",
+    "bytes": 43742,
+    "sha256": "f3ace701fac900382bfcb0a3a94570f82ccaeb7d6a38510335201bf5f3a61c56"
+  },
+  {
+    "path": "Cnx/rogo2.CNX",
+    "bytes": 32171,
+    "sha256": "d2dee356e7409046671f65f54138bc4f3dba90a4e927b8f4e2af73e6545f845f"
+  },
+  {
+    "path": "Cnx/rogwall.CNX",
+    "bytes": 76122,
+    "sha256": "54d9a4bd2fb0f0ef0f84193216a72d91ec55feaa4a333e38a2fecd0b4627c145"
+  },
+  {
+    "path": "Cnx/roll.CNX",
+    "bytes": 135396,
+    "sha256": "79e58173502d2a353a94ab09cb87b35fee6404b56fdc55f0e007c1a933d6391c"
+  },
+  {
+    "path": "Cnx/sfont.CNX",
+    "bytes": 4235,
+    "sha256": "f76aa8369b46b762f094f001a2f2512d211e95b09910cdf1cc972106db6caf77"
+  },
+  {
+    "path": "Cnx/stgb01.CNX",
+    "bytes": 125010,
+    "sha256": "98ace4b1c997a2ee9eed2d547ea4dcabca6502681482bf859c605df38972d5f9"
+  },
+  {
+    "path": "Cnx/stgb02.CNX",
+    "bytes": 51884,
+    "sha256": "1de92f27bfac7391917c711c9e77e89403d4a03d77e8f78a3efde10eb3bd29af"
+  },
+  {
+    "path": "Cnx/stgb03.CNX",
+    "bytes": 29697,
+    "sha256": "f8296f17464c95376f7b0946ead61f18a888ee36c808452526468f163166ecf1"
+  },
+  {
+    "path": "Cnx/stgp01.CNX",
+    "bytes": 23025,
+    "sha256": "0379a59e1a343f374b2794bcec2ee84a6d7cc96a503ded795f80d661e8adb3a3"
+  },
+  {
+    "path": "Cnx/stgp02.CNX",
+    "bytes": 15819,
+    "sha256": "9a751e0bc61902ef9d0093577d0f05dc71ac9f2ea7b2eeaf91628c76eb966544"
+  },
+  {
+    "path": "Cnx/stgp03.CNX",
+    "bytes": 15725,
+    "sha256": "f300b4df632d3cd22ce0613c123602a0805b4cdab89e71b949aae838933786b9"
+  },
+  {
+    "path": "Cnx/sysfont.CNX",
+    "bytes": 1419,
+    "sha256": "9552bb4d34942d133237122e252e13b38ff963c87e9660c016ef1c614929159e"
+  },
+  {
+    "path": "Cnx/thany_a1.CNX",
+    "bytes": 59062,
+    "sha256": "c437acd743a0b9a335ae7545694696fb277cf2924dc02031277b916896bf264e"
+  },
+  {
+    "path": "Cnx/thany_a2.CNX",
+    "bytes": 59096,
+    "sha256": "079f26404d3b473cd7e235f484043b70e67f4abf91bc5089e5d6a22acd699a93"
+  },
+  {
+    "path": "Cnx/ttl.CNX",
+    "bytes": 20551,
+    "sha256": "407f21bfa02317020219ce07af9f9956912f78668a47e15805930573293ba0c0"
+  },
+  {
+    "path": "Cnx/ttlmenu.CNX",
+    "bytes": 25661,
+    "sha256": "ad872d8392fad0aef661a28ea8b43a59e839806d1189ec9f14621dfc54c8eb9e"
+  },
+  {
+    "path": "Cnx/wiz_maru.CNX",
+    "bytes": 9732,
+    "sha256": "d2777ee185578f733c78789ecaa7e8e448bf23dfeb1b2510fc8d00ef974920f9"
+  },
+  {
+    "path": "Cnx/wiz.CNX",
+    "bytes": 65828,
+    "sha256": "e4ea60ba536b12208c1075514c93f4801cb51f9d1e71cd1d9b0dcfe4d0461df0"
+  },
+  {
+    "path": "Cnx/wolf_l.CNX",
+    "bytes": 50197,
+    "sha256": "d1a55739390b5c47f12099b0a441bff54dc20739047b0047dae5525935c42235"
+  },
+  {
+    "path": "Cnx/wolf_r.CNX",
+    "bytes": 50154,
+    "sha256": "ebb363b2118ff737897f59518d838b3c9c6cb14268402f1c4464a7c8cbe9a789"
+  },
+  {
+    "path": "Dat/MysticA.mlk",
+    "bytes": 123468,
+    "sha256": "a85574bb74bb304bdd0d1bc9463022ee942edca16dad159d340c4a2105dea70a"
+  },
+  {
+    "path": "Dat/MysticA.wlk",
+    "bytes": 1036463,
+    "sha256": "617d10a54219a1d951cd418a9137159964319c6ac19c7447d34ab2dd943abdc3"
+  },
+  {
+    "path": "Dat/STGa01.brm",
+    "bytes": 14412,
+    "sha256": "45cb91d62e680aa2e878b7d2e78c8dfe824909d439607971dda3884f98ba1612"
+  },
+  {
+    "path": "Dat/STGa02.brm",
+    "bytes": 12012,
+    "sha256": "507efe3161169b7ac10f1a5a69da5a04c38bc0181f24fe872ef5e58de8954953"
+  },
+  {
+    "path": "Dat/STGa03.brm",
+    "bytes": 12012,
+    "sha256": "ab51d5d043b73c92139719c58a5ad747c64126dab7c24d1894f3b9f0ad76a060"
+  },
+  {
+    "path": "Dat/STGf01.brm",
+    "bytes": 14412,
+    "sha256": "8a2aeb5183edb0335d85031c0e398275e20fea166d50c1069ec4c554887e9710"
+  },
+  {
+    "path": "Dat/STGf02.brm",
+    "bytes": 12012,
+    "sha256": "72a99b6695d419dd58e9df2cbeb12f8c92371a07468db618ba9762d4a417cfab"
+  },
+  {
+    "path": "Dat/STGf03.brm",
+    "bytes": 12012,
+    "sha256": "8aab36e5d7cd9a9ff119b4f4b3d42fce15debe53db91b028134fb664af014f4d"
+  },
+  {
+    "path": "savedata/Mystic0.dat",
+    "bytes": 20,
+    "sha256": "2680560b172dbeee14891554d27f42bcdf05cbdb5386fddf226288c72aaa4696"
+  },
+  {
+    "path": "seq/apple.sq",
+    "bytes": 8373,
+    "sha256": "8201023481ba7ccd51e561078df4634226e29c10e7dbfaf2b25fed0bb606b8e8"
+  },
+  {
+    "path": "seq/en/mess.sq",
+    "bytes": 553,
+    "sha256": "848c30089c9de7f543827b2a6970aaecc8b83150be3b69dc159a8e5bf09a5766"
+  },
+  {
+    "path": "seq/graph.sq",
+    "bytes": 1032,
+    "sha256": "bf5741e154db3a8533eb95f283c8c7a0b1156e13dc78416694d6eebbb2d149c5"
+  },
+  {
+    "path": "seq/jp/mess.sq",
+    "bytes": 625,
+    "sha256": "1b7d2da57502dea7799bb9c2f56b0dffb064ba4de10f2002958c32ef1d34678b"
+  },
+  {
+    "path": "seq/kr/mess.sq",
+    "bytes": 625,
+    "sha256": "1b7d2da57502dea7799bb9c2f56b0dffb064ba4de10f2002958c32ef1d34678b"
+  },
+  {
+    "path": "seq/sound.sq",
+    "bytes": 84,
+    "sha256": "f4a3f508e955bddcc3983a281fa03590b5ea5b81cc0572e823166395aa63c415"
+  },
+  {
+    "path": "seq/startup.sq",
+    "bytes": 732,
+    "sha256": "7180916a17a172464464adc9e329eff7ce820222b7f75c243707d31a1ecc734e"
+  }
+]

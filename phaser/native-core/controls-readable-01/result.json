@@ -1,0 +1,112 @@
+{
+  "checks": [
+    {
+      "size": [
+        320,
+        240
+      ],
+      "pass": true
+    },
+    {
+      "size": [
+        360,
+        640
+      ],
+      "pass": true
+    },
+    {
+      "size": [
+        640,
+        360
+      ],
+      "pass": true
+    },
+    {
+      "size": [
+        768,
+        1024
+      ],
+      "pass": true
+    },
+    {
+      "size": [
+        1024,
+        768
+      ],
+      "pass": true
+    },
+    {
+      "size": [
+        1280,
+        720
+      ],
+      "pass": true
+    },
+    {
+      "size": [
+        1366,
+        768
+      ],
+      "pass": true
+    },
+    {
+      "size": [
+        1920,
+        1080
+      ],
+      "pass": true
+    },
+    {
+      "size": [
+        2560,
+        1440
+      ],
+      "pass": true
+    },
+    {
+      "size": [
+        3840,
+        2160
+      ],
+      "pass": true
+    }
+  ],
+  "errors": [],
+  "browser": "155.0.8059.82",
+  "fullscreen": true,
+  "game": {
+    "ready": true,
+    "error": null,
+    "frames": 923,
+    "game": {
+      "ticks": 925,
+      "stage": 1,
+      "mode": 4,
+      "pause": 0,
+      "entities": 16,
+      "player": {
+        "x": 13369344,
+        "y": 25255936,
+        "hp": 992,
+        "action": 0,
+        "attack": 1
+      },
+      "shake": [
+        0,
+        0
+      ]
+    },
+    "sounds": 10,
+    "midi": 2,
+    "saves": 1,
+    "measurement": null,
+    "exited": false,
+    "workerSamples": null,
+    "saveRead": {
+      "present": false,
+      "bytes": 20,
+      "roundMask": 63
+    }
+  },
+  "pass": true
+}

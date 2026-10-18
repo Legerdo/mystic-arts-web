@@ -1,0 +1,8 @@
+{
+  "name": "mystic-arts-phaser-migration",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": { "build": "node native-core/build.mjs --original-dir native-core/dist/original" },
+  "dependencies": { "phaser": "3.90.0" }
+}

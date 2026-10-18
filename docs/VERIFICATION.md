@@ -8,12 +8,12 @@
 |---|---|---|
 | 원본 CPU 차등 재검사 | [hot-public-release-01.json](../phaser/native-core/hot-public-release-01.json) | 396사례 + 10,200프레임, RAM/힙/그리기·음향 명령/인덱스 화면 일치 |
 | 로컬 정적 하위 경로 | [static-public-release-02/result.json](../phaser/native-core/static-public-release-02/result.json) | 8개 실제 브라우저 항목, 소스와 일치한 배포 매니페스트 |
-| 공개 Pages 실행 | [pages-public-release-01/result.json](../phaser/native-core/pages-public-release-01/result.json) | 공개 URL에서 동일 8개 항목 재검사; 배포 후 기록 |
-| 공개 Pages 픽셀 성능 | [pages-performance-01/result.json](../phaser/native-core/pages-performance-01/result.json) | 원본 1라운드 입력, 10초; 배포 후 기록 |
+| 공개 Pages 실행 | [pages-public-release-01/result.json](../phaser/native-core/pages-public-release-01/result.json) | 공개 URL에서 동일 8개 항목 PASS, 오류 0건, 입력 반응 25.6ms 1회 |
+| 공개 Pages 픽셀 성능 | [pages-performance-01/result.json](../phaser/native-core/pages-performance-01/result.json) | 1라운드 10초, 61.07FPS, p95 25.2ms, 최대 42.4ms |
 | 기술표·화면 구성 | [controls-readable-01/result.json](../phaser/native-core/controls-readable-01/result.json) | Chrome 155, 10개 크기·모든 안내 페이지·확대·전체화면·실제 플레이 |
 | EXIT·재시작 | [exit-no-tabs-final-02/result.json](../phaser/native-core/exit-no-tabs-final-02/result.json) | 2회 종료 후 세 번째 실행, 음향 컨텍스트 1개 재사용, 원본 저장 보존 |
 
-공개 URL 검사는 배포가 완료된 뒤 실행하며, 원시 JSON과 이 문서의 결과를 함께 갱신합니다. 로컬 통과를 원격 통과로 대체하지 않습니다.
+공개 URL 검사는 실제 GitHub Pages 주소에서 실행했습니다. 원본 64개와 배포 171개 파일의 해시, Linux 재빌드와 커밋된 배포의 일치를 확인했습니다. 현재 빌드 매니페스트 SHA-256은 `e429cea8a7db5727ef015277762004b54ea26096e60fb9fc800af2b11f8378e2`입니다. [배포 확인 기록](PUBLICATION.md)에 Actions와 환경을 연결했습니다.
 
 ### 실행 명령
 

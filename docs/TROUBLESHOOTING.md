@@ -92,3 +92,7 @@ tail-call, Binaryen 최적화와 팔레트·copy·alpha·mix·filter 5루프 sid
 스크린샷 분석 자체가 입력 시점에 영향을 준 사례가 있어 기존 픽셀 판정과 합격 기준을 유지하며 검출 비용을 줄였습니다. Wine ZIP의 이동 후 점프 재실패를 통과로 덮지 않았습니다.
 
 새 결과에는 새 폴더/파일 이름을 사용합니다. 평균 FPS로 긴 정지·누락 입력·동등성 실패를 감추지 않습니다. 재현 명령과 판정은 [VERIFICATION.md](VERIFICATION.md)에 모았습니다.
+
+## Pages 배포 시 경고와 실제 실패 구분
+
+2026-10-18의 고정된 최신 `actions/deploy-pages` v5.0.1은 내부 Node 의존성에서 `DEP0040: punycode module is deprecated` 경고를 냈습니다. 빌드와 배포는 성공했고 배포 전체 파일 해시·실제 플레이 검사를 통과했습니다. 게임의 브라우저 오류와는 다릅니다. 경고를 숨기는 환경변수나 검사 완화는 추가하지 않았으며 upstream 갱신 시 다시 확인할 항목으로 남깁니다.

@@ -1,0 +1,113 @@
+{
+  "url": "https://legerdo.github.io/mystic-arts-web/",
+  "checks": {
+    "originalSave20Bytes": true,
+    "inputMovesRenderedPlayer": true,
+    "pauseFreezesPlayer": true,
+    "offlineContinues": true,
+    "nativeSaveReadback": true,
+    "saveBytesSurviveReload": true,
+    "noIsolationHeaders": true,
+    "noRuntimeErrors": true
+  },
+  "errors": [],
+  "browser": "155.0.8059.82",
+  "headers": {
+    "accept-ranges": "bytes",
+    "access-control-allow-origin": "*",
+    "age": "0",
+    "cache-control": "max-age=600",
+    "content-encoding": "gzip",
+    "content-length": "1857",
+    "content-type": "text/html; charset=utf-8",
+    "date": "Sun, 18 Oct 2026 13:48:43 GMT",
+    "etag": "W/\"6ad4ce24-18b1\"",
+    "expires": "Sun, 18 Oct 2026 13:58:43 GMT",
+    "last-modified": "Sun, 18 Oct 2026 13:48:20 GMT",
+    "server": "GitHub.com",
+    "vary": "Accept-Encoding",
+    "via": "1.1 varnish",
+    "x-cache": "MISS",
+    "x-cache-hits": "0",
+    "x-fastly-request-id": "af91c322b0db85a64b7bebe6a34503dfe451cfc7",
+    "x-github-edge-region": "koreacentral",
+    "x-github-request-id": "B5C2:120846:10D1F30:115A1BF:6AD4CE3A",
+    "x-origin-cache": "HIT",
+    "x-proxy-cache": "MISS",
+    "x-served-by": "cache-icn1450039-ICN",
+    "x-timer": "S1792331323.349440,VS0,VE187"
+  },
+  "buildManifestSha256": "e429cea8a7db5727ef015277762004b54ea26096e60fb9fc800af2b11f8378e2",
+  "platform": {
+    "crossOriginIsolated": false,
+    "sharedArrayBuffer": "undefined"
+  },
+  "inputProbe": {
+    "ms": 25.600000001490116,
+    "beforeX": 13369344,
+    "afterX": 13434880
+  },
+  "offlineState": {
+    "ready": true,
+    "error": null,
+    "frames": 1127,
+    "game": {
+      "ticks": 1128,
+      "stage": 1,
+      "mode": 4,
+      "pause": 0,
+      "entities": 16,
+      "player": {
+        "x": 13965824,
+        "y": 17768448,
+        "hp": 992,
+        "action": 0,
+        "attack": 1
+      },
+      "shake": [
+        0,
+        0
+      ]
+    },
+    "sounds": 20,
+    "midi": 2,
+    "saves": 1,
+    "measurement": null,
+    "exited": false,
+    "workerSamples": null,
+    "saveRead": {
+      "present": false,
+      "bytes": 20,
+      "roundMask": 63
+    }
+  },
+  "reloadState": {
+    "ready": true,
+    "error": null,
+    "frames": 1,
+    "game": {
+      "ticks": 0,
+      "stage": 0,
+      "mode": 0,
+      "pause": 0,
+      "entities": 0,
+      "player": null,
+      "shake": [
+        0,
+        0
+      ]
+    },
+    "sounds": 0,
+    "midi": 0,
+    "saves": 0,
+    "measurement": null,
+    "exited": false,
+    "workerSamples": null,
+    "saveRead": {
+      "present": true,
+      "bytes": 20,
+      "roundMask": 63
+    }
+  },
+  "pass": true
+}
